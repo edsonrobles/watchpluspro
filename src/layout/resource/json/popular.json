@@ -1,0 +1,274 @@
+{
+    "movies" : [
+        {
+            "id"        : "ElRetornoDeLasBrujas2",
+            "score"     : "6.1",
+            "title"     : "El retorno de las brujas 2",
+            "name"      : "Hocus pocus 2",
+            "datasheet" : "2022 • +12 • 1h 43min",
+            "genders"   : [ "comedia", "familiar", "fantasía" ],
+            "trailer"   : "https://www.disneyplus.com/es-419/movies/el-retorno-de-las-brujas-2/4Q5cWHlnVCun",
+            "poster"    : "https://m.media-amazon.com/images/M/MV5BNWIzN2UyMDMtZTg0ZS00MzZiLWJhNmItZjg4ODlhZGQzZDhmXkEyXkFqcGdeQXVyMTAyOTE2ODg0._V1_FMjpg_UX840_.jpg",
+            "scene"     : "https://m.media-amazon.com/images/M/MV5BMjFkOTkyNWEtMmY3OS00ZmY5LThmMWYtYzdhYTkzNTZjM2YxXkEyXkFqcGdeQXVyOTc5MDI5NjE@._V1_FMjpg_UX1024_.jpg",
+            "sinopsys"  : "Tres mujeres jóvenes traen accidentalmente a las hermanas Sanderson a la Salem moderna y deben descubrir cómo evitar que las brujas hambrientas de niños causen estragos en el mundo." 
+        },
+        {
+            "id"        : "Blonde",
+            "score"     : "5.5",
+            "title"     : "Blonde",
+            "name"      : "Blonde",
+            "datasheet" : "2022 • +18 • 2h 47min",
+            "genders"   : [ "biografía", "drama", "romance" ],
+            "trailer"   : "https://www.netflix.com/ni/title/80174263",
+            "poster"    : "https://m.media-amazon.com/images/M/MV5BNDk2YTA1MGYtMGNjMi00YTJlLWI1YjItMjBjOGJlZGIwZmYzXkEyXkFqcGdeQXVyODA0MjgyNzM@._V1_FMjpg_UX810_.jpg",
+            "scene"     : "https://m.media-amazon.com/images/M/MV5BODhkYWE2YTMtMTMxYS00ZWY4LTlkNGMtNDgxZTcwNDBlNzQzXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg",
+            "sinopsys"  : "Una crónica ficticia de la vida interior de Marilyn Monroe." 
+        },
+        {
+            "id"        : "ElRetornoDeLasBrujas",
+            "score"     : "6.9",
+            "title"     : "El retorno de las brujas",
+            "name"      : "Hocus pocus",
+            "datasheet" : "1993 • +7 • 1h 36min",
+            "genders"   : [ "comedia", "familiar", "fantasía" ],
+            "poster"    : "https://m.media-amazon.com/images/M/MV5BNWM3NmRhMGMtOGE4ZC00MDk0LWI1NjMtMjVlNTEwOTcwZTc0XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+            "scene"     : "https://m.media-amazon.com/images/M/MV5BZWM0OGFiY2ItN2U2ZC00MjM5LTlkOWEtYjk0NTBkNmRlMDIyXkEyXkFqcGdeQXVyMDc2NTEzMw@@._V1_FMjpg_UX1024_.jpg",
+            "sinopsys"  : "Un joven curioso se muda a Salem, donde lucha por encajar antes de despertar a un trío de brujas diabólicas que fueron ejecutadas en el siglo XVII." 
+        },
+        {
+            "id"        : "RevanchaYa",
+            "score"     : "6.4",
+            "title"     : "Revancha ya",
+            "name"      : "Do Revenge",
+            "datasheet" : "2022 • +16 • 1h 58min",
+            "genders"   : [ "comedia" ],
+            "poster"    : "https://m.media-amazon.com/images/M/MV5BYWEzN2IxMzctODgzOC00YzQyLTljZjUtMTQ5Njc1NDI4ZTAzXkEyXkFqcGdeQXVyMTA2ODkwNzM5._V1_.jpg",
+            "scene"     : "https://m.media-amazon.com/images/M/MV5BOTEyMTRmYmEtNWE0OS00MmNmLTlhZTItZWEzMjlmNjY2NDlkXkEyXkFqcGdeQXVyOTM1NTkxMjI@._V1_.jpg",
+            "sinopsys"  : "Cinco asesinos a bordo de un veloz tren bala para descubrir que sus misiones tienen algo en común." 
+        },
+        {
+            "id"        : "LaChicaQueLoTeniaTodo",
+            "score"     : "6.4",
+            "title"     : "La chica que lo tenia todo",
+            "name"      : "Luckiest Girl Alive",
+            "datasheet" : "2022 • +16 • 1h 53min",
+            "genders"   : [ "drama", "misterio", "suspenso" ],
+            "poster"    : "https://m.media-amazon.com/images/M/MV5BOGQ3Zjg4MGYtNGY0MC00MWNkLWI4MDItMDMwMTgzMjgzMWZjXkEyXkFqcGdeQXVyMTA2ODkwNzM5._V1_.jpg",
+            "scene"     : "https://m.media-amazon.com/images/M/MV5BNGM0ODQyMWUtZmI0ZC00NGVmLTgwYzUtMTEwZTJkMTA5OWJjXkEyXkFqcGdeQXVyOTc5MDI5NjE@._V1_.jpg",
+            "sinopsys"  : "La vida perfecta de una escritora neoyorquina empieza a tambalearse cuando un documental sobre un crimen la obliga a afrontar la atrocidad que tuvo lugar en su instituto." 
+        },
+        {
+            "id"        : "Hellraiser",
+            "score"     : "6.1",
+            "title"     : "Hellraiser",
+            "name"      : "Hellraiser",
+            "datasheet" : "2022 • R • 2h 1min",
+            "genders"   : [ "terror", "misterio", "suspenso" ],
+            "poster"    : "https://m.media-amazon.com/images/M/MV5BYWM1YTgxNjMtNzY2NC00YjVmLWE1ODUtNTdiYTI4YjZhODMwXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
+            "scene"     : "https://m.media-amazon.com/images/M/MV5BMTI0MWE5MmYtZDZjYi00NDcxLThjMTAtZDZmOTRlNGQ1ZTk5XkEyXkFqcGdeQXVyMjI3NzE4MTM@._V1_.jpg",
+            "sinopsys"  : "Una versión del clásico de terror de Clive Barker de 1987 en la que una joven que lucha contra la adicción se hace con una antigua caja de rompecabezas, sin saber que su propósito es invocar a los cenobitas." 
+        },
+        {
+            "id"        : "Bro",
+            "score"     : "6.9",
+            "title"     : "Bro",
+            "name"      : "Bro",
+            "datasheet" : "2022 • R • 1h 59min",
+            "genders"   : [ "comedia", "romance" ],
+            "poster"    : "https://m.media-amazon.com/images/M/MV5BYzYyZWE0NTYtMjQ1Yi00YTg0LWFjMjctN2NiNjExNDYwOGFlXkEyXkFqcGdeQXVyMTAyNzIxMTI5._V1_.jpg",
+            "scene"     : "https://m.media-amazon.com/images/M/MV5BYTFkYWI5Y2ItNjQ3Ni00OTgzLWE3Y2YtMTE2NjYxYWJmYjlkXkEyXkFqcGdeQXVyNzEwODIxNzE@._V1_.jpg",
+            "sinopsys"  : "Dos hombres con problemas de compromiso intentan una relación." 
+        },
+        {
+            "id"        : "ElTelefonoDelDrHarrigan",
+            "score"     : "6.0",
+            "title"     : "El teléfono del Sr. Harrigan",
+            "name"      : "Mr. Harrigan's Phone",
+            "datasheet" : "2022 • +12 • 1h 44min",
+            "genders"   : [ "drama", "terror", "misterio" ],
+            "poster"    : "https://m.media-amazon.com/images/M/MV5BMjM1NGM4NmMtMDI2OS00MTgzLWJmZDctNWI3MDZlODczNzFiXkEyXkFqcGdeQXVyMTA2ODkwNzM5._V1_.jpg",
+            "scene"     : "https://m.media-amazon.com/images/M/MV5BMzlkMzMwMjYtZjdmZC00YTNmLTkxM2YtZmZiMDk1MDI2ZmE4XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg",
+            "sinopsys"  : "Cuando el Sr. Harrigan muere, Craig, el adolescente que se hizo amigo de él y le hizo trabajos ocasionales, se guarda el teléfono inteligente en el bolsillo antes del entierro. Cuando el joven solitario le envía un mensaje a su amigo muerto, se sorprende al recibir un mensaje de texto de respuesta." 
+        },
+        {
+            "id"        : "TheMunster",
+            "score"     : "4.6",
+            "title"     : "The munster",
+            "name"      : "The munster",
+            "datasheet" : "2022 • PG • 1h 49min",
+            "genders"   : [ "comedia", "familiar", "fantasía" ],
+            "poster"    : "https://m.media-amazon.com/images/M/MV5BYmYyYWQ2ZmEtYTEzZi00OGExLWE0YTItOGYyODBhY2M4NDI1XkEyXkFqcGdeQXVyNTYzMTc4MzY@._V1_.jpg",
+            "scene"     : "https://m.media-amazon.com/images/M/MV5BNWM0NTkzMjktZjU3MS00NTllLThmOWYtOWRmNjkxOTkxNzczXkEyXkFqcGdeQXVyOTc5MDI5NjE@._V1_.jpg",
+            "sinopsys"  : "Sigue la excéntrica historia de amor entre Lily y Herman Munster y su mudanza de Transilvania a los suburbios de los Estados Unidos, en esta precuela de la queridísima serie de los 60." 
+        },
+        {
+            "id"        : "YoMeEncargoDeLasCervezas",
+            "score"     : "6.8",
+            "title"     : "Yo me encargo de las cervezas",
+            "name"      : "The greatest beer run ever",
+            "datasheet" : "2022 • +16 • 2h 6min",
+            "genders"   : [ "aventura", "comedia", "drama" ],
+            "poster"    : "https://m.media-amazon.com/images/M/MV5BMWUwOThjYTAtZWYyYy00YjllLTkxYjEtNTJmNTI5N2M1NjkxXkEyXkFqcGdeQXVyOTU0NjY1MDM@._V1_FMjpg_UX650_.jpg",
+            "scene"     : "https://m.media-amazon.com/images/M/MV5BMTYwNGJkMTktNzI4My00N2ExLWExZmMtODVlMTg5YTIxYzVjXkEyXkFqcGdeQXVyMTU1NzUyMDQ0._V1_FMjpg_UX1024_.jpg",
+            "sinopsys"  : "La historia de un hombre que dejó Nueva York en 1967 para llevar cerveza a sus amigos de la infancia en el ejército mientras luchaban en Vietnam." 
+        },
+        {
+            "id"        : "Lou",
+            "score"     : "6.1",
+            "title"     : "Lou",
+            "name"      : "Lou",
+            "datasheet" : "2022 • +16 • 1h 47min",
+            "genders"   : [ "acción", "crimen", "drama" ],
+            "poster"    : "https://m.media-amazon.com/images/M/MV5BYzdjMDViYTktM2QyZS00ZGNmLWFlMTctYTliZTUwMWM3YTMwXkEyXkFqcGdeQXVyMTE5MTg5NDIw._V1_.jpg",
+            "scene"     : "https://m.media-amazon.com/images/M/MV5BNDgyMDMzN2UtNjUwOS00MjhhLTgyYzItZTk2YzM5MGYwYjZkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_FMjpg_UX1024_.jpg",
+            "sinopsys"  : "Se desata una tormenta. Una joven es secuestrada. Su madre se une a la misteriosa mujer de al lado para perseguir al secuestrador, un viaje que pone a prueba sus límites y expone impactantes secretos de su pasado." 
+        },
+        {
+            "id"        : "ThorAmorYTrueno",
+            "score"     : "6.4",
+            "title"     : "Thor, amor y trueno",
+            "name"      : "Thor, love and thunder",
+            "datasheet" : "2022 • +12 • 1h 58min",
+            "genders"   : [ "acción", "aventura", "comedia" ],
+            "poster"    : "https://m.media-amazon.com/images/M/MV5BNmEyYjI1NjEtYjIxNi00YjJmLTkzZTctMGMyNzg0NTg1ZmY0XkEyXkFqcGdeQXVyMTE5NDQ1MzQ3._V1_FMjpg_UX864_.jpg",
+            "scene"     : "https://m.media-amazon.com/images/M/MV5BNGExYWRiOGItYzNkMi00Y2U4LTliMGYtYjk0MDFmMmI1MzcyXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_FMjpg_UX1024_.jpg",
+            "sinopsys"  : "Thor reclama la ayuda de Valquiria, Korg y su exnovia Jane Foster para luchar contra Gorr el Dios Carnicero, que pretende extinguir a los dioses." 
+        }
+    ],
+    
+    
+    "series" : [
+        {
+            "id"        : "HouseOfTheDragon",
+            "score"     : "8.6",
+            "title"     : "Casa del dragón",
+            "name"      : "House of the dragon",
+            "datasheet" : "2022 - • +18 • 9 Ep • 48min",
+            "genders"   : [ "acción", "aventura", "drama" ],
+            "poster"    : "https://m.media-amazon.com/images/M/MV5BMTBiOTEyZDYtYTY4MS00NjA5LTgxY2EtMGRmZjQ5Y2E0ZDU3XkEyXkFqcGdeQXVyMTAyOTE2ODg0._V1_.jpg",
+            "scene"     : "https://m.media-amazon.com/images/M/MV5BZjc4NjRjZTQtYTY5ZS00MDA4LTk3YjEtZmZlOGIwOTQ3Y2ZlXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_.jpg",
+            "sinopsys"  : "La historia de la casa Targaryen, ambientada 200 años antes de los acontecimientos en Juego de Tronos." 
+        },
+        {
+            "id"        : "ElSeñorDeLosAnillos",
+            "score"     : "6.9",
+            "title"     : "El señor de los anillos, los anillos del poder",
+            "name"      : "The lord of the rings, the rings of power",
+            "datasheet" : "2022 - • +14 • 52min",
+            "genders"   : [ "acción", "aventura", "drama" ],
+            "poster"    : "https://m.media-amazon.com/images/M/MV5BNjIwZjQ5YTctZDg0ZS00YTI0LTk5YjEtYzVmYTJmYzRiNGUyXkEyXkFqcGdeQXVyNTI4MzE4MDU@._V1_.jpg",
+            "scene"     : "https://m.media-amazon.com/images/M/MV5BM2FkN2IyZTQtMjU5OS00NTZmLTliNzYtYTk1MGMwOTUxMzNlXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
+            "sinopsys"  : "Basada en el universo de «El Señor de los Anillos», durante la Segunda Edad, la Edad de Númenor, que se extiende durante un periodo de 3441 años." 
+        },
+        {
+            "id"        : "Dahmer",
+            "score"     : "8.4",
+            "title"     : "Dahmer. Monstruo la historia de Jeffrey Dahmer",
+            "name"      : "Dahmer. Monster the Jeffrey Dahmer Story",
+            "datasheet" : "2022 • +18 • 8 Ep • 8h 54min",
+            "genders"   : [ "biografía", "crimen", "drama" ],
+            "poster"    : "https://m.media-amazon.com/images/M/MV5BM2IwNWY2YWEtNTU4Ni00MmE2LTljZjItNWQ0NzBlNjJiMzBiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+            "scene"     : "https://m.media-amazon.com/images/M/MV5BNzE5MzkzMGItZWYxNy00OGIwLThiZTItOWUzYWZhNDU0OTJkXkEyXkFqcGdeQXVyOTc5MDI5NjE@._V1_.jpg",
+            "sinopsys"  : "La historia del Monstruo de Milwaukee contada desde la perspectiva de las víctimas y la incompetencia de la policía que permitió que el nativo de Wisconsin se embarcara en una matanza de varios años." 
+        },
+        {
+            "id"        : "Andor",
+            "score"     : "8.1",
+            "title"     : "Andor",
+            "name"      : "Andor",
+            "datasheet" : "2022 - • +14 • 40min",
+            "genders"   : [ "acción", "aventura", "drama" ],
+            "poster"    : "https://m.media-amazon.com/images/M/MV5BNDgxNTIyZTMtMzYxNi00NmRjLWFiMTEtM2U4MTFmODkzNzM1XkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_.jpg",
+            "scene"     : "https://m.media-amazon.com/images/M/MV5BZDAyOGY1YjAtY2UyMS00MTMyLWFhZWYtNWZlNDlhZWE1MDExXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
+            "sinopsys"  : "Precuela de «Rogue One: Una historia de Star Wars» que sigue las aventuras de Cassian Andor durante sus años de formación con La Rebelión." 
+        },
+        {
+            "id"        : "SheHulk",
+            "score"     : "5.1",
+            "title"     : "She-Hulk, Abogada Hulka",
+            "name"      : "She-Hulk, Attorney at Law",
+            "datasheet" : "2022 - • +12 • 35min",
+            "genders"   : [ "acción", "aventura", "comedia" ],
+            "poster"    : "https://m.media-amazon.com/images/M/MV5BYzU5M2MwZTQtOTA2Yi00N2Y5LWFmM2EtNjczMDAwYjkxZGFmXkEyXkFqcGdeQXVyMjcwMzM0OTI@._V1_.jpg",
+            "scene"     : "https://m.media-amazon.com/images/M/MV5BNzViOTdkYzYtZTQ0OS00MTVkLThkMzYtYmU0YzFhMWQ4MjUyXkEyXkFqcGdeQXVyNzA4NTc5MjE@._V1_.jpg",
+            "sinopsys"  : "Jennifer Walters navega por la complicada vida de una abogada soltera de 30 y tantos años que también resulta ser un Hulk verde con superpoderes de 6 pies y 7 pulgadas." 
+        },
+        {
+            "id"        : "TheWalkingDead",
+            "score"     : "8.1",
+            "title"     : "The walking dead",
+            "name"      : "The walking dead",
+            "datasheet" : "2010 - 2022 • +18 • 44min",
+            "genders"   : [ "drama", "terror", "suspenso" ],
+            "poster"    : "https://m.media-amazon.com/images/M/MV5BMjIyYjM3NGUtYWE3MC00OThkLTk1NWMtYWE0ZmIyMjgzNTgzXkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_.jpg",
+            "scene"     : "https://m.media-amazon.com/images/M/MV5BMTk2ODg4OTM1Ml5BMl5BanBnXkFtZTgwOTA0MjA0NzM@._V1_.jpg",
+            "sinopsys"  : "El ayudante del sheriff, Rick Grimes, se despierta de un coma para darse cuenta de que el mundo está en ruinas y debe liderar un grupo de supervivientes para seguir con vida." 
+        },
+        {
+            "id"        : "JuegoDeTrono",
+            "score"     : "9.2",
+            "title"     : "Juego de tronos",
+            "name"      : "Game of thrones",
+            "datasheet" : "2011 - 2019 • +18 • 57min",
+            "genders"   : [ "acción", "aventura", "drama" ],
+            "poster"    : "https://m.media-amazon.com/images/M/MV5BOGY1NDQ1MDMtYTY1ZS00MGQ1LTg5ZTgtMDljM2IxY2NhODJhXkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_.jpg",
+            "scene"     : "https://m.media-amazon.com/images/M/MV5BZTZjNmJmZDgtOWEwYi00MTlmLTk0NjEtYmMzMWM3ZmUxOTY3XkEyXkFqcGdeQXVyNTUzNTM0OTA@._V1_.jpg",
+            "sinopsys"  : "Nueve familias nobles luchan por el control de las tierras de Poniente, mientras que un antiguo enemigo regresa después de estar inactivo durante milenios." 
+        },
+        {
+            "id"        : "LaEmperatriz",
+            "score"     : "7.9",
+            "title"     : "La emperatriz",
+            "name"      : "The Empress",
+            "datasheet" : "2022 - • TV-MA",
+            "genders"   : [ "drama", "historia", "romance" ],
+            "poster"    : "https://m.media-amazon.com/images/M/MV5BNjc3ZmRjMTUtM2QzMi00NTkwLWFmNDAtYzYxNDBjYjAyMzk4XkEyXkFqcGdeQXVyMTU2Mjg2NjE2._V1_.jpg",
+            "scene"     : "https://m.media-amazon.com/images/M/MV5BN2I1NmU4MWItMzg4NC00YWI5LWI2YzktOTliY2YwODdmYjllXkEyXkFqcGdeQXVyMTUzOTczNzYx._V1_.jpg",
+            "sinopsys"  : "En tiempos del Imperio Austro-húngaro, Sisi, la emperatriz Elisabeth de Austria y el emperador Franz, se entregan al amor en medio de intrigas, expectativas y conflicto social." 
+        },
+        {
+            "id"        : "EntrevistaConElVampiro",
+            "score"     : "6.6",
+            "title"     : "Entrevista con el vampiro",
+            "name"      : " Interview with the Vampire",
+            "datasheet" : "2022 - • TV-MA",
+            "genders"   : [ "drama", "fantasía", "terror" ],
+            "poster"    : "https://m.media-amazon.com/images/M/MV5BMmJiMTA0ZDctMTQ1OS00Y2FhLWI4MjUtZWRkMmU5ZjA2MTM3XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
+            "scene"     : "https://m.media-amazon.com/images/M/MV5BNWFlZmE5NDgtOTU0Yi00YTY5LTkwMjctZmFiYTBlNTkxM2JlXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
+            "sinopsys"  : "Basada en la icónica novela de Anne Rice, sigue la épica historia de amor, sangre y peligros de la inmortalidad de Louis de Pointe, según le contó al periodista Daniel Molloy." 
+        },
+        {
+            "id"        : "AmericanHorrorStory",
+            "score"     : "8.0",
+            "title"     : "American horror story",
+            "name"      : "American horror story",
+            "datasheet" : "2011 - • +18 • 1h",
+            "genders"   : [ "drama", "terror", "ciencia ficción" ],
+            "poster"    : "https://m.media-amazon.com/images/M/MV5BM2QyZDM0MDMtOWE3Ni00YTM3LTlhYmYtMjk2YjRiMjI2MTM3XkEyXkFqcGdeQXVyNjQ4ODE4MzQ@._V1_.jpg",
+            "scene"     : "https://m.media-amazon.com/images/M/MV5BMmQxODUwOTEtODZhOC00MjkzLWFkZjctMTNlNjFhZmVjMDk0XkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg",
+            "sinopsys"  : "Una serie de antología centrada en diferentes personajes y lugares, incluida una casa con un pasado asesino, un manicomio, un aquelarre de brujas, un espectáculo de circo, un hotel embrujado, una granja poseída, un culto, el apocalipsis, un campamento de verano slasher, un pueblo de playa desolado y un valle desértico, y la ciudad de Nueva York." 
+        },
+        {
+            "id"        : "ElCuentoDeLaCriada",
+            "score"     : "8.4",
+            "title"     : "El cuento de la criada",
+            "name"      : " The Handmaid's Tale",
+            "datasheet" : "2017 • +18 • 1h",
+            "genders"   : [ "drama", "ciencia ficción", "suspenso" ],
+            "poster"    : "https://m.media-amazon.com/images/M/MV5BN2M0NTdiMGYtNmFjZi00MjIxLWI3OTUtNTdmZDRlOTNiYWU0XkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_.jpg",
+            "scene"     : "https://m.media-amazon.com/images/M/MV5BZTNiYTcwYjYtZTUyZS00ODUzLWE3NzktNDQ2N2UxNTkzOTQwXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
+            "sinopsys"  : "Ambientada en un futuro distópico, una mujer se ve obligada a vivir como concubina bajo una dictadura teocrática fundamentalista." 
+        },
+        {
+            "id"        : "MejorLlamameSaul",
+            "score"     : "8.9",
+            "title"     : "Mejor llamame Saul",
+            "name"      : "Better caul Saul",
+            "datasheet" : "2015 - 2022 • +16 • 46min",
+            "genders"   : [ "crimen", "drama" ],
+            "poster"    : "https://m.media-amazon.com/images/M/MV5BMTMxOGM0NzItM2E0OS00YWYzLWEzNzUtODUzZTBjM2I4MTZkXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_.jpg",
+            "scene"     : "https://m.media-amazon.com/images/M/MV5BMTg2NDA5N2QtNmZkMS00NTQ2LWFjOWQtNzAwZTgxMTcwYjRhXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
+            "sinopsys"  : "Los juicios y tribulaciones del abogado criminal, Jimmy McGill, en la época previa al establecimiento de su cutre despacho de abogados en Albuquerque, Nuevo México." 
+        }
+    ]
+}

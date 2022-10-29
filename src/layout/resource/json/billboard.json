@@ -1,0 +1,150 @@
+{
+    "cinemark" : [
+        {
+            "premiere"  : true,
+            "title"     : "Halloween la noche final",
+            "flag"      : "estreno",
+            "score"     : "5.6",
+            "showtimes" : [ "12:10", "03:00", "05:50", "08:40" ],
+            "poster"    : "https://cinemarkmedia.modyocdn.com/ca/300x400/90667.jpg?version=1665716400000"
+        },
+        {
+            "premiere"  : true,
+            "title"     : "Fetish",
+            "flag"      : "estreno",
+            "score"     : "6.6",
+            "showtimes" : [ "12:10", "03:00", "05:50", "08:40" ],
+            "poster"    : "https://m.media-amazon.com/images/M/MV5BOTExOTJkYzgtZjFlZi00NGExLThhZTctM2EzNjE2MGFhYThlXkEyXkFqcGdeQXVyMjUwNzA4ODk@._V1_FMjpg_UX1080_.jpg"
+        },
+        {
+            "premiere"  : true,
+            "title"     : "Mr Zoo",
+            "flag"      : "estreno",
+            "score"     : "5.6",
+            "showtimes" : [ "12:10", "03:00", "05:50", "08:40" ],
+            "poster"    : "https://cinemarkmedia.modyocdn.com/ca/300x400/90694.jpg?version=1665716400000"
+        },
+        {
+            "premiere"  : true,
+            "title"     : "Poltergeist 40 Aniv",
+            "flag"      : "estreno",
+            "score"     : "7.3",
+            "showtimes" : [ "12:10", "03:00", "05:50", "08:40" ],
+            "poster"    : "https://m.media-amazon.com/images/M/MV5BODJiZTU1ZTMtZTEzMy00NzFmLWJjNzctZTc2MDcwZjE1MDBjXkEyXkFqcGdeQXVyMTUzMDUzNTI3._V1_.jpg"
+        },
+        {
+            "premiere"  : false,
+            "title"     : "La invitación",
+            "flag"      : "estreno",
+            "score"     : "5.2",
+            "showtimes" : [ "12:10", "03:00", "05:50", "08:40" ],
+            "poster"    : "https://m.media-amazon.com/images/M/MV5BMjIxODcwMDQtY2U1ZC00NDljLWE4N2EtZTA3YTcwZjc3OTg1XkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_FMjpg_UX400_.jpg"
+        },
+        {
+            "premiere"  : false,
+            "title"     : "Amsterdams",
+            "flag"      : "estreno",
+            "score"     : "6.2",
+            "showtimes" : [ "12:10", "03:00", "05:50", "08:40" ],
+            "poster"    : "https://m.media-amazon.com/images/M/MV5BNDQwNzE0ZTItYmZjMC00NjI3LWFlNzctNTExZDY2NWE0Zjc0XkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_FMjpg_UX1000_.jpg"
+        },
+        {
+            "premiere"  : false,
+            "title"     : "Vista por ultima vez",
+            "score"     : "6.2",
+            "showtimes" : [ "12:10", "03:00", "05:50", "08:40" ],
+            "poster"    : "https://m.media-amazon.com/images/M/MV5BNzkyOWNlMzEtNDYxZi00NDBiLThmMzYtOGUzNzExMmY5NTVlXkEyXkFqcGdeQXVyNjM0MTI4Mw@@._V1_FMjpg_UX1032_.jpg"
+        },
+        {
+            "premiere"  : false,
+            "title"     : "El beso de Dios",
+            "score"     : "7.8",
+            "showtimes" : [ "12:10", "03:00", "05:50", "08:40" ],
+            "poster"    : "https://m.media-amazon.com/images/M/MV5BNzNiZjBiMzktNGRkNS00MjQ0LWEyZDctYzI5MjhmOGYxMmM4XkEyXkFqcGdeQXVyMTU0MDYxMzA@._V1_.jpg"
+        },
+        {
+            "premiere"  : false,
+            "title"     : "Mi dulce monstruo",
+            "score"     : "4.9",
+            "showtimes" : [ "12:10", "03:00", "05:50", "08:40" ],
+            "poster"    : "https://m.media-amazon.com/images/M/MV5BZGIwYzIyYWMtN2M1ZS00NWQ4LTgyNTItN2NkNmQ1M2ZkNmEyXkEyXkFqcGdeQXVyNjM0MTI4Mw@@._V1_.jpg"
+        },
+        {
+            "premiere"  : false,
+            "title"     : "Sonrie",
+            "score"     : "6.7",
+            "showtimes" : [ "12:10", "03:00", "05:50", "08:40" ],
+            "poster"    : "https://m.media-amazon.com/images/M/MV5BOGRiYjdmZWQtMmVjMC00Zjg3LTkwN2MtYjJmYTQ5ZGZkMjBiXkEyXkFqcGdeQXVyNjM0MTI4Mw@@._V1_.jpg"
+        },
+        {
+            "premiere"  : false,
+            "title"     : "La Huerfana. Primer asesinato",
+            "score"     : "6.0",
+            "showtimes" : [ "12:10", "03:00", "05:50", "08:40" ],
+            "poster"    : "https://m.media-amazon.com/images/M/MV5BMWViZDAzZjItMDY1OS00OGU1LTlkMmYtZDczZGNmNjhjZWRhXkEyXkFqcGdeQXVyMTAyOTE2ODg0._V1_.jpg"
+        },
+        {
+            "premiere"  : false,
+            "title"     : "Viaje al paraiso",
+            "score"     : "6.4",
+            "showtimes" : [ "12:10", "03:00", "05:50", "08:40" ],
+            "poster"    : "https://m.media-amazon.com/images/M/MV5BM2ViMzc4MzMtOWQyOC00NzMwLThlYWQtYWNlN2I2MjMxMDE1XkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_.jpg"
+        },
+        {
+            "premiere"  : false,
+            "title"     : "Tadeo John 3. La piedra esmeralda",
+            "score"     : "6.0",
+            "showtimes" : [ "12:10", "03:00", "05:50", "08:40" ],
+            "poster"    : "https://m.media-amazon.com/images/M/MV5BM2E0ZDBkMTctYTUwNC00ZTJlLTk2OWItNzBiZWNmNzJmNzc0XkEyXkFqcGdeQXVyMTM0MjQ4NTYy._V1_.jpg"
+        }
+    ],
+    "siglonuevo" : [
+        {
+            "premiere"  : true,
+            "title"     : "Black Addam",
+            "flag"      : "preventa",
+            "score"     : "-",
+            "showtimes" : [ "Comprar boleto" ],
+            "poster"    : "https://m.media-amazon.com/images/M/MV5BYTc3ZGYyMmEtOWQ1NS00NmNhLWE0ODgtMTYyY2FjZThjYmI4XkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_FMjpg_UX400_.jpg"
+        },
+        {
+            "premiere"  : true,
+            "title"     : "Halloween ends",
+            "flag"      : "estreno",
+            "score"     : "5.6",
+            "showtimes" : [ "12:10", "03:00", "05:50", "08:40" ],
+            "poster"    : "https://cinemarkmedia.modyocdn.com/ca/300x400/90667.jpg?version=1665716400000"
+        },
+        {
+            "premiere"  : false,
+            "title"     : "Amsterdams",
+            "flag"      : "estreno",
+            "score"     : "6.2",
+            "showtimes" : [ "12:10", "03:00", "05:50", "08:40" ],
+            "poster"    : "https://m.media-amazon.com/images/M/MV5BNDQwNzE0ZTItYmZjMC00NjI3LWFlNzctNTExZDY2NWE0Zjc0XkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_FMjpg_UX1000_.jpg"
+        },
+        {
+            "premiere"  : false,
+            "title"     : "La invitación",
+            "flag"      : "estreno",
+            "score"     : "5.2",
+            "showtimes" : [ "12:10", "03:00", "05:50", "08:40" ],
+            "poster"    : "https://m.media-amazon.com/images/M/MV5BMjIxODcwMDQtY2U1ZC00NDljLWE4N2EtZTA3YTcwZjc3OTg1XkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_FMjpg_UX400_.jpg"
+        },
+        {
+            "premiere"  : false,
+            "title"     : "Mi dulce monstruo",
+            "score"     : "4.9",
+            "showtimes" : [ "12:10", "03:00", "05:50", "08:40" ],
+            "poster"    : "https://m.media-amazon.com/images/M/MV5BZGIwYzIyYWMtN2M1ZS00NWQ4LTgyNTItN2NkNmQ1M2ZkNmEyXkEyXkFqcGdeQXVyNjM0MTI4Mw@@._V1_.jpg"
+        },
+        {
+            "premiere"  : false,
+            "title"     : "Splider man, no way home",
+            "flag"      : "estreno",
+            "score"     : "8.3",
+            "showtimes" : [ "12:10", "03:00", "05:50", "08:40" ],
+            "poster"    : "https://m.media-amazon.com/images/M/MV5BN2MyZjc3ODAtODhmYy00YzI5LTgyZTQtMWM1NzQ0MGVjMzFhXkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_.jpg"
+        }
+    ]
+}

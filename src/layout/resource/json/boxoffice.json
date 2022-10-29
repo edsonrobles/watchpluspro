@@ -1,0 +1,466 @@
+{
+    "movies" : [
+        {
+            "number" : 1,
+            "name"   : "Black Adams",
+            "score"  : "7.1",
+            "title"  : "Black Adams",
+            "weeks"  : "Semana 1",
+            "gain"   : "67M USD",
+            "budget" : "195M USD",
+            "poster" : "https://m.media-amazon.com/images/M/MV5BYTc3ZGYyMmEtOWQ1NS00NmNhLWE0ODgtMTYyY2FjZThjYmI4XkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_QL75_UX380_CR0,0,380,562_.jpg",
+            "actors" : [
+                { 
+                    "name"   : "Dwayne Johnson",
+                    "route"  : "https://es.wikipedia.org/wiki/Dwayne_Johnson",
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BMTkyNDQ3NzAxM15BMl5BanBnXkFtZTgwODIwMTQ0NTE@._V1_QL75_UX280_CR0,25,280,280_.jpg"
+                },
+                { 
+                    "name"   : "Aldis Hogde",
+                    "route"  : "https://es.wikipedia.org/wiki/Aldis_Hodge",           
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BMjA5MjQ1MDk1NF5BMl5BanBnXkFtZTgwNzA3MTg1MTI@._V1_QL75_UY280_CR71,0,280,280_.jpg" 
+                },
+                { 
+                    "name"   : "Pierce Brosnan",
+                    "route"  : "https://es.wikipedia.org/wiki/Pierce_Brosnan",
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BMTMwMjMxNzM4OV5BMl5BanBnXkFtZTcwNDM5NzkxMw@@._V1_QL75_UX280_CR0,5,280,280_.jpg" 
+                },
+                { 
+                    "name"   : "Noah Centineo",
+                    "route"  : "https://es.wikipedia.org/wiki/Noah_Centineo",   
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BMTZlZGY4ODMtNDcwYy00N2I1LWE0ZDktYzcyOWU3Nzg1MjNkXkEyXkFqcGdeQXVyNzg5MzIyOA@@._V1_QL75_UX280_CR0,24,280,280_.jpg" 
+                },
+                { 
+                    "name"   : "Sarah Shahi",
+                    "route"  : "https://es.wikipedia.org/wiki/Sarah_Shahi",         
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BMTU0MzE2NTI1NV5BMl5BanBnXkFtZTcwODcwMzMwOQ@@._V1_QL75_UX280_CR0,18,280,280_.jpg" 
+                },
+                { 
+                    "name"   : "Quintessa_Swindell",
+                    "route"  : "https://es.wikipedia.org/wiki/Quintessa_Swindell",     
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BMTYwOTYxNzM0OF5BMl5BanBnXkFtZTgwNzM0MjkwNjM@._V1_QL75_UX280_CR0,0,280,280_.jpg" 
+                },
+                { 
+                    "name"   : "Marwan Kenzari",
+                    "route"  : "https://es.wikipedia.org/wiki/Marwan_Kenzari",     
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BNWY1ZWJjNWEtN2ZjNS00ZTk2LWJmZTctNjNkNDY3Y2QxMGY2XkEyXkFqcGdeQXVyNDkzNTM2ODg@._V1_QL75_UX280_CR0,23,280,280_.jpg" 
+                }
+            ]
+        },
+        {
+            "number" : 2,
+            "score"  : "6.4",
+            "title"  : "Viaje al paraiso",
+            "weeks"  : "Semana 2",
+            "gain"   : "16.5M USD",
+            "budget" : "17 USD",
+            "poster" : "https://m.media-amazon.com/images/M/MV5BM2ViMzc4MzMtOWQyOC00NzMwLThlYWQtYWNlN2I2MjMxMDE1XkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_QL75_UX380_CR0,0,380,562_.jpg",
+            "actors" : [
+                { 
+                    "name"   : "George Clooney",
+                    "route"  : "https://es.wikipedia.org/wiki/George_Clooney",
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BMjEyMTEyOTQ0MV5BMl5BanBnXkFtZTcwNzU3NTMzNw@@._V1_QL75_UX280_CR0,5,280,280_.jpg"
+                },
+                { 
+                    "name"   : "Julia Roberts",
+                    "route"  : "https://es.wikipedia.org/wiki/Julia_Roberts",           
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BMTQzNjU3MDczN15BMl5BanBnXkFtZTYwNzY2Njc4._V1_QL75_UX280_CR0,22,280,280_.jpg" 
+                },
+                { 
+                    "name"   : "Kaitlyn Dever",
+                    "route"  : "https://es.wikipedia.org/wiki/Kaitlyn_Dever",
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BZDcyZTNjM2ItM2UyMC00YjdkLTk3MmEtZDk2Y2NiMWQ3NWY2XkEyXkFqcGdeQXVyMTk5MzgwMDM@._V1_QL75_UX140_CR0,9,140,140_.jpg" 
+                },
+                { 
+                    "name"   : "Maxime Bouttier",
+                    "route"  : "https://en.wikipedia.org/wiki/Maxime_Bouttier",   
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BY2Q0YzEzNTUtMWExOS00YjZkLWJjZTAtYzc5NDYyMzk3MzBjXkEyXkFqcGdeQXVyMTMxMjAxOTEx._V1_QL75_UX280_CR0,1,280,280_.jpg" 
+                },
+                { 
+                    "name"   : "Lucas Bravo",
+                    "route"  : "https://en.wikipedia.org/wiki/Lucas_Bravo",         
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BNDFjZjM3NTYtOTAxMi00MzA2LTk4OTktMjk0ZTgwNjExZWJmXkEyXkFqcGdeQXVyOTYyNjkyMDQ@._V1_QL75_UX280_CR0,24,280,280_.jpg" 
+                },
+                { 
+                    "name"   : "Billie Lourd",
+                    "route"  : "https://es.wikipedia.org/wiki/Billie_Lourd",     
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BMTYzOTA0MzU0OV5BMl5BanBnXkFtZTgwMzgxMDM5NTE@._V1_QL75_UX280_CR0,0,280,280_.jpg" 
+                },
+                { 
+                    "name"   : "Ling-Hsueh Tang",
+                    "route"  : "https://en.wikipedia.org/wiki/Ling-Hsueh_Tang",     
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BZWM5ZDhhNzktZGE3OS00YTRmLTllYjctNDc5ZTFiZWRjNGY1XkEyXkFqcGdeQXVyNjI5Nzc4Mw@@._V1_QL75_UX280_CR0,24,280,280_.jpg" 
+                }
+            ]
+        },
+        {
+            "number" : 3,
+            "score"  : "6.9",
+            "title"  : "Sonríe",
+            "weeks"  : "Semana 4",
+            "gain"   : "8.5M USD",
+            "budget" : "35 USD",
+            "poster" : "https://m.media-amazon.com/images/M/MV5BOGRiYjdmZWQtMmVjMC00Zjg3LTkwN2MtYjJmYTQ5ZGZkMjBiXkEyXkFqcGdeQXVyNjM0MTI4Mw@@._V1_.jpg",
+            "actors" : [
+                { 
+                    "name"   : "Sosie Bacon",
+                    "route"  : "https://es.wikipedia.org/wiki/Sosie_Bacon",
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BNTZjZTU2N2QtMzc0Zi00NzFkLWIwYjUtZjE5MTJmZWY5MDI3XkEyXkFqcGdeQXVyMTAwODcwMjE3._V1_QL75_UY280_CR24,0,280,280_.jpg"
+                },
+                { 
+                    "name"   : "Jessie T. Usher",
+                    "route"  : "https://es.wikipedia.org/wiki/Jessie_Usher",           
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BNmRmN2FlN2EtODc1Zi00MWM5LThmNDYtOWM5MjdlZGE3NWFlXkEyXkFqcGdeQXVyNTIzMDExMjA@._V1_QL75_UX280_CR0,5,280,280_.jpg" 
+                },
+                { 
+                    "name"   : "Kyle Gallner",
+                    "route"  : "https://es.wikipedia.org/wiki/Kyle_Gallner",
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BZDU5ZDIxZTctMmU4Zi00MmEzLTk5ZWUtN2ZlYTRjZDhiYTdjXkEyXkFqcGdeQXVyNDUxNjE3MA@@._V1_QL75_UX280_CR0,0,280,280_.jpg" 
+                },
+                { 
+                    "name"   : "Caitlin Stasey",
+                    "route"  : "https://es.wikipedia.org/wiki/Caitlin_Stasey",   
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BOWUwYjlmYjctNjhkZi00MDgxLWI4OGMtMDk0OGIyNzkwNmJlXkEyXkFqcGdeQXVyMjIxOTc0Njg@._V1_QL75_UX280_CR0,24,280,280_.jpg" 
+                },
+                { 
+                    "name"   : "Rob Morgan",
+                    "route"  : "https://es.wikipedia.org/wiki/Rob_Morgan",         
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BYTA4YTIwOTItZTg1Yy00NDk3LTkwMTItYTFhMjhkYzVjYTQxXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_QL75_UX280_CR0,24,280,280_.jpg" 
+                },
+                { 
+                    "name"   : "Kal Penn",
+                    "route"  : "https://es.wikipedia.org/wiki/Kal_Penn",     
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BMTQ4NjM4NzczNF5BMl5BanBnXkFtZTcwNDc2NjAwNw@@._V1_QL75_UX280_CR0,7,280,280_.jpg" 
+                },
+                { 
+                    "name"   : "Judy Reyes",
+                    "route"  : "https://es.wikipedia.org/wiki/Judy_Reyes",     
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BMTY0NTgzOTMzM15BMl5BanBnXkFtZTcwODUwMTY4MQ@@._V1_QL75_UX280_CR0,3,280,280_.jpg" 
+                }
+            ]
+        },
+        {
+            "number" : 4,
+            "score"  : "5.0",
+            "title"  : "Halloween, el final",
+            "weeks"  : "Semana 2",
+            "gain"   : "8M USD",
+            "budget" : "17 USD",
+            "poster" : "https://m.media-amazon.com/images/M/MV5BZTg1Y2Q3MzctMDlkOS00OGE1LWE4MjUtNmJjNDNkZmM2YmVkXkEyXkFqcGdeQXVyMjY5ODI4NDk@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+            "actors" : [
+                { 
+                    "name"   : "Jamie Lee Curtis",
+                    "route"  : "https://es.wikipedia.org/wiki/Jamie_Lee_Curtis",
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BMjI0MTI0MDk2OV5BMl5BanBnXkFtZTgwODQ4MTE0NDE@._V1_QL75_UX280_CR0,0,280,280_.jpg"
+                },
+                { 
+                    "name"   : "Andi Matichak",
+                    "route"  : "https://es.wikipedia.org/wiki/Andi_Matichak",           
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BMjQ4NjExOTkyNF5BMl5BanBnXkFtZTgwMjcwODkyNjM@._V1_QL75_UX280_CR0,24,280,280_.jpg" 
+                },
+                { 
+                    "name"   : "James Jude Courtney",
+                    "route"  : "https://en.wikipedia.org/wiki/James_Jude_Courtney",
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BYjVhZjQwYjEtNjE1Ni00OWJiLWEwYTktZTRjMGUzZjRkNTI0XkEyXkFqcGdeQXVyNTA5ODQ4NzU@._V1_QL75_UX280_CR0,25,280,280_.jpg" 
+                },
+                { 
+                    "name"   : "Rohan Campbell",
+                    "route"  : "https://en.wikipedia.org/wiki/Rohan_Campbell",   
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BMjQxZjk4NzMtZDlmZS00MTEyLThhZmUtYjFlMzMxMTk5NzkyXkEyXkFqcGdeQXVyNzA1MDM0Mg@@._V1_QL75_UY280_CR70,0,280,280_.jpg" 
+                },
+                { 
+                    "name"   : "Will_Patton",
+                    "route"  : "https://es.wikipedia.org/wiki/Will_Patton",         
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BMTIyOTEzNzMxMV5BMl5BanBnXkFtZTYwNTk2Njc3._V1_QL75_UX280_CR0,25,280,280_.jpg" 
+                },
+                { 
+                    "name"   : "Kyle Richards",
+                    "route"  : "https://es.wikipedia.org/wiki/Kyle_Richards",     
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BMjI1MzA1ODQzMF5BMl5BanBnXkFtZTgwMDM3Mjc4NTE@._V1_QL75_UX280_CR0,14,280,280_.jpg" 
+                },
+                { 
+                    "name"   : "Nick_Castle",
+                    "route"  : "https://es.wikipedia.org/wiki/Nick_Castle",     
+                    "avatar" : "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Nick_Castle_%2821106912330%29.jpg/220px-Nick_Castle_%2821106912330%29.jpg" 
+                }
+            ]
+        },
+        {
+            "number" : 5,
+            "score"  : "6.4",
+            "title"  : "Lilo, mi amigo cocodrilo",
+            "weeks"  : "Semana 3",
+            "gain"   : "4.3M USD",
+            "budget" : "50 USD",
+            "poster" : "https://m.media-amazon.com/images/M/MV5BYjMxN2VjNzMtZTg0Zi00Mjk5LTg5NDEtOGEzZTY1NTc3ODY2XkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_QL75_UX380_CR0,4,380,562_.jpg",
+            "actors" : [
+                { 
+                    "name"   : "Shawn Mendes",
+                    "route"  : "https://es.wikipedia.org/wiki/Shawn_Mendes",
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BMjA4MTAzMzgxMV5BMl5BanBnXkFtZTgwOTI5MzU2NzE@._V1_QL75_UX280_CR0,24,280,280_.jpg"
+                },
+                { 
+                    "name"   : "Constance Wu",
+                    "route"  : "https://es.wikipedia.org/wiki/Constance_Wu",           
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BMjRhYTBlNmYtYTMzMi00YjIyLTllMWYtMDJkNGJjYmMzN2Q4XkEyXkFqcGdeQXVyNzU5OTk3OQ@@._V1_QL75_UX280_CR0,24,280,280_.jpg" 
+                },
+                { 
+                    "name"   : "Javier Bardem",
+                    "route"  : "https://es.wikipedia.org/wiki/Javier_Bardem",
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BMTY1NTc4NTYzMF5BMl5BanBnXkFtZTcwNDIwOTY1NA@@._V1_QL75_UX280_CR0,24,280,280_.jpg" 
+                },
+                { 
+                    "name"   : "Brian Tyree Henry",
+                    "route"  : "https://es.wikipedia.org/wiki/Brian_Tyree_Henry",   
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BODAxOWZmODMtOTVmYy00ZWZjLTlhMzktMTc1OTgxNTMyNTk5XkEyXkFqcGdeQXVyMjE0NjY2NTA@._V1_FMjpg_UX1242_.jpg" 
+                },
+                { 
+                    "name"   : "Brett Gelman",
+                    "route"  : "https://es.wikipedia.org/wiki/Brett_Gelman",         
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BNzA3NDJmMzAtYTBlNy00MDkzLTg4YjItMmY4OTMxMmZkZjliXkEyXkFqcGdeQXVyMTI2Nzk2ODk3._V1_QL75_UY280_CR70,0,280,280_.jpg" 
+                },
+                { 
+                    "name"   : "Scoot McNairy",
+                    "route"  : "https://es.wikipedia.org/wiki/Scoot_McNairy",     
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BMzUxYjM1ZjEtYTcwNy00MDkyLWJjZGItMjFmNjZjM2ViMDMwXkEyXkFqcGdeQXVyMjMxOTI4MTk@._V1_QL75_UY280_CR50,0,280,280_.jpg" 
+                },
+                { 
+                    "name"   : "Ego Nwodim",
+                    "route"  : "https://en.wikipedia.org/wiki/Ego_Nwodim",     
+                    "avatar" : "https://pbs.twimg.com/profile_images/1210764797362311169/CYQInjnM_400x400.jpg" 
+                }
+            ]
+        },
+        {
+            "number" : 6,
+            "score"  : "6.3",
+            "title"  : "La mujer rey",
+            "weeks"  : "Semana 6",
+            "gain"   : "1.9M USD",
+            "budget" : "82 USD",
+            "poster" : "https://m.media-amazon.com/images/M/MV5BYjcyMTg1ODEtYmNlMC00NjlkLWI2MmQtOTVkOTAyZDlkYTM5XkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_QL75_UX380_CR0,0,380,562_.jpg",
+            "actors" : [
+                { 
+                    "name"   : "Viola Davis",
+                    "route"  : "https://es.wikipedia.org/wiki/Viola_Davis",
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BNzUxNjM4ODI1OV5BMl5BanBnXkFtZTgwNTEwNDE2OTE@._V1_QL75_UX280_CR0,0,280,280_.jpg"
+                },
+                { 
+                    "name"   : "Lashana Lynch",
+                    "route"  : "https://es.wikipedia.org/wiki/Lashana_Lynch",           
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BMjI0ZGE0ZTYtYmY1MS00MGU0LWEwMDQtMzYxMDFmMmFjZjUyXkEyXkFqcGdeQXVyMzczOTY5ODk@._V1_QL75_UX280_CR0,0,280,280_.jpg" 
+                },
+                { 
+                    "name"   : "Thuso Mbedu",
+                    "route"  : "https://es.wikipedia.org/wiki/Thuso_Mbedu",
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BMjVmZGQ4Y2YtYzQ2Yi00N2RhLWI2OTktZDEzZjU1ODVlMTRkXkEyXkFqcGdeQXVyMjI3MjY2ODQ@._V1_QL75_UX280_CR0,24,280,280_.jpg" 
+                },
+                { 
+                    "name"   : "Hero Fiennes Tiffin",
+                    "route"  : "https://es.wikipedia.org/wiki/Hero_Fiennes_Tiffin",   
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BMzljM2IzYTUtNGJmYy00YmIzLTk1ZTgtM2MyNzM3ZmQ3OTM5XkEyXkFqcGdeQXVyNzI1NzMxNzM@._V1_QL75_UX280_CR0,24,280,280_.jpg" 
+                },
+                { 
+                    "name"   : "John Boyega",
+                    "route"  : "https://es.wikipedia.org/wiki/John_Boyega",         
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BMDg4NWZjNmEtZWVmNC00MzdhLTlhOTEtZmViYjdmMzhjMTAyXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_QL75_UX280_CR0,0,280,280_.jpg" 
+                },
+                { 
+                    "name"   : "Sheila Atim",
+                    "route"  : "https://es.wikipedia.org/wiki/Sheila_Atim",     
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BNWEwMWUwNzItNWQ1Yi00ZGZiLTllNTYtYmM5NjRhZDA3YzY2XkEyXkFqcGdeQXVyNzE5NDI1MTY@._V1_QL75_UX280_CR0,0,280,280_.jpg" 
+                },
+                { 
+                    "name"   : "Jordan Bolger",
+                    "route"  : "https://es.wikipedia.org/wiki/Jordan_Bolger",     
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BYjE2NzJlZjQtMWUzNy00ZDNjLWIyODAtOWRkOWQ4MThlNGY1XkEyXkFqcGdeQXVyMTUxNzU2OQ@@._V1_.jpg" 
+                }
+            ]
+        },
+        {
+            "number" : 7,
+            "score"  : "6.6",
+            "title"  : "Terrifier 2",
+            "weeks"  : "Semana 3",
+            "gain"   : "1.8M USD",
+            "budget" : "250K USD",
+            "poster" : "https://m.media-amazon.com/images/M/MV5BNTc5YWQ2MzAtM2E3Yi00MDUyLWFiYzctMzQ5NWVkMmQ0OTcxXkEyXkFqcGdeQXVyMTU2MDk3MDQz._V1_QL75_UY562_CR1,0,380,562_.jpg",
+            "actors" : [
+                { 
+                    "name"   : "David Howard Thornton",
+                    "route"  : "#",
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BMTY5NTQ1MjE5NF5BMl5BanBnXkFtZTgwMzEyOTY0NjE@._V1_QL75_UX280_CR0,24,280,280_.jpg"
+                },
+                { 
+                    "name"   : "Jenna Kanell",
+                    "route"  : "#",
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BODM0OTU1NjUtNmUxNC00YmY1LThmYzMtYmM1YmZlZTNmYTZlXkEyXkFqcGdeQXVyMjM0OTE1MzE@._V1_QL75_UX280_CR0,0,280,280_.jpg" 
+                },
+                { 
+                    "name"   : "Lauren La Vera",
+                    "route"  : "#",           
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BNDg0YWMyYzEtYzlhOC00YzEwLTgxZGEtMWM3MWFhNzYyMWYyXkEyXkFqcGdeQXVyNzEwMjI5ODM@._V1_QL75_UX280_CR0,0,280,280_.jpg" 
+                },
+                { 
+                    "name"   : "Catherine Corcoran",
+                    "route"  : "#",   
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BNzc3ODIyNzAtMDk4NS00MmNkLWE1ZTMtODA1ZjI4MTdmN2Y2XkEyXkFqcGdeQXVyMjA5MjIzMjQ@._V1_QL75_UX280_CR0,2,280,280_.jpg" 
+                },
+                { 
+                    "name"   : "Samantha Scaffidi",
+                    "route"  : "#",         
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BNjNlNzY1MGEtMWQzOS00ZjU5LWJmY2ItODBmZjVlY2RhMjRmXkEyXkFqcGdeQXVyMzgzNzczMTg@._V1_QL75_UX280_CR0,0,280,280_.jpg" 
+                },
+                { 
+                    "name"   : "Kailey Hyman",
+                    "route"  : "#",     
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BZTYxNjRjOTctMTJhYi00NjZhLWEyZWItZjFmN2Y2NmVhOGZlXkEyXkFqcGdeQXVyMzU0NTYzNjE@._V1_QL75_UX280_CR0,24,280,280_.jpg" 
+                },
+                { 
+                    "name"   : "Chris Jericho",
+                    "route"  : "https://es.wikipedia.org/wiki/Chris_Jericho",     
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BMjE3NzkzMTM1NV5BMl5BanBnXkFtZTcwNzAyNTY0Mg@@._V1_QL75_UX280_CR0,0,280,280_.jpg" 
+                }
+            ]
+        },
+        {
+            "number" : 8,
+            "score"  : "6.2",
+            "title"  : "No te preocupes, querida",
+            "weeks"  : "Semana 5",
+            "gain"   : "868k USD",
+            "budget" : "90 USD",
+            "poster" : "https://m.media-amazon.com/images/M/MV5BZmMxMTYzYzAtYjY2MC00MjExLWE1ZmEtNDcxNWYxZjgyMDZmXkEyXkFqcGdeQXVyMTAyOTE2ODg0._V1_QL75_UX380_CR0,4,380,562_.jpg",
+            "actors" : [
+                { 
+                    "name"   : "Harry Styles",
+                    "route"  : "https://es.wikipedia.org/wiki/Harry_Styles",
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BMTUxMzU2MTk1OF5BMl5BanBnXkFtZTgwNzg4NjAwMzI@._V1_QL75_UX280_CR0,0,280,280_.jpg"
+                },
+                { 
+                    "name"   : "Olivia Wilde",
+                    "route"  : "https://es.wikipedia.org/wiki/Olivia_Wilde",           
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BMTg5NTc1NzgwOV5BMl5BanBnXkFtZTcwMTcyMjIzMQ@@._V1_QL75_UX280_CR0,0,280,280_.jpg" 
+                },
+                { 
+                    "name"   : "Florence Pugh",
+                    "route"  : "https://es.wikipedia.org/wiki/Florence_Pugh",
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BOGM4ZGI5MTMtMTRkZC00MmM0LThmZTItNzNkZjM2MTg3N2U1XkEyXkFqcGdeQXVyNTQ1OTQ0OTA@._V1_QL75_UX280_CR0,2,280,280_.jpg" 
+                },
+                { 
+                    "name"   : "Chris Pine",
+                    "route"  : "https://es.wikipedia.org/wiki/Chris_Pine",   
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BMTM4OTQ4NTU3NV5BMl5BanBnXkFtZTcwNjEwNDU0OQ@@._V1_QL75_UX280_CR0,24,280,280_.jpg" 
+                },
+                { 
+                    "name"   : "Gemma Chan",
+                    "route"  : "https://es.wikipedia.org/wiki/Gemma_Chan",         
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BYTI3ZDEwYjktZjVhYS00NTlhLTkwOWEtNjM1MzEyMWU5M2QyXkEyXkFqcGdeQXVyMTE3ODY2Nzk@._V1_QL75_UX280_CR0,16,280,280_.jpg" 
+                },
+                { 
+                    "name"   : "Nick Kroll",
+                    "route"  : "https://es.wikipedia.org/wiki/Nick_Kroll",     
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BMTg3NTE5Mjg2NF5BMl5BanBnXkFtZTgwODAxMzE4NDM@._V1_.jpg" 
+                },
+                { 
+                    "name"   : "Dakota Johnson",
+                    "route"  : "https://es.wikipedia.org/wiki/Dakota_Johnson",     
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BMTExMDI2NDY5MzVeQTJeQWpwZ15BbWU4MDU4NTE4OTMx._V1_.jpg" 
+                }
+            ]
+        },
+        
+        {
+            "number" : 9,
+            "score"  : "6.2",
+            "title"  : "Amsterdam",
+            "weeks"  : "Semana 3",
+            "gain"   : "825K USD",
+            "budget" : "80M USD",
+            "poster" : "https://m.media-amazon.com/images/M/MV5BNDQwNzE0ZTItYmZjMC00NjI3LWFlNzctNTExZDY2NWE0Zjc0XkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_QL75_UX380_CR0,4,380,562_.jpg",
+            "actors" : [
+                { 
+                    "name"   : "Christian Bale",
+                    "route"  : "https://es.wikipedia.org/wiki/Christian_Bale",
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BMTkxMzk4MjQ4MF5BMl5BanBnXkFtZTcwMzExODQxOA@@._V1_QL75_UX280_CR0,25,280,280_.jpg"
+                },
+                { 
+                    "name"   : "Margot Robbie",
+                    "route"  : "https://es.wikipedia.org/wiki/Margot_Robbie",           
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BMTgxNDcwMzU2Nl5BMl5BanBnXkFtZTcwNDc4NzkzOQ@@._V1_QL75_UX280_CR0,1,280,280_.jpg" 
+                },
+                { 
+                    "name"   : "Taylor Swift",
+                    "route"  : "https://es.wikipedia.org/wiki/Taylor_Swift",
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BMjA5ODI0NzIzNV5BMl5BanBnXkFtZTcwMzM0NjI2Nw@@._V1_QL75_UX280_CR0,25,280,280_.jpg" 
+                },
+                { 
+                    "name"   : "Anya Taylor-Joy",
+                    "route"  : "https://es.wikipedia.org/wiki/Anya_Taylor-Joy",   
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BMTllYmE5YTYtZGZmYy00ZTBlLWJlODEtYWQ0ZmU1YTJkMjJlXkEyXkFqcGdeQXVyNzI1NzMxNzM@._V1_QL75_UX280_CR0,24,280,280_.jpg" 
+                },
+                { 
+                    "name"   : "John David Washington",
+                    "route"  : "https://es.wikipedia.org/wiki/John_David_Washington",         
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BOTY4NDcyNDM5OF5BMl5BanBnXkFtZTgwMjk4Mzk0NTM@._V1_QL75_UX280_CR0,12,280,280_.jpg" 
+                },
+                { 
+                    "name"   : "Robert De Niro",
+                    "route"  : "https://es.wikipedia.org/wiki/Robert_De_Niro",     
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BMjAwNDU3MzcyOV5BMl5BanBnXkFtZTcwMjc0MTIxMw@@._V1_QL75_UX280_CR0,0,280,280_.jpg" 
+                },
+                { 
+                    "name"   : "Rami Malek",
+                    "route"  : "https://es.wikipedia.org/wiki/Rami_Malek",     
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BODA3OTM4ODU0MV5BMl5BanBnXkFtZTgwNjQ5Njg3NjM@._V1_QL75_UX280_CR0,22,280,280_.jpg" 
+                }
+            ]
+        },
+        {
+            "number" : 10,
+            "score"  : "7.9",
+            "title"  : "Triangulo de la tristeza",
+            "weeks"  : "Semana 3",
+            "gain"   : "601K USD",
+            "budget" : "15M USD",
+            "poster" : "https://m.media-amazon.com/images/M/MV5BNDRiZjc0ZDMtMjhlYi00ZjAzLTg0MDQtZDI2NGEyYTBlN2M2XkEyXkFqcGdeQXVyMTA2MDU0NjM5._V1_.jpg",
+            "actors" : [
+                { 
+                    "name"   : "Charlbi Dean",
+                    "route"  : "https://es.wikipedia.org/wiki/Charlbi_Dean",
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BMTgxNzc2MDY5MF5BMl5BanBnXkFtZTgwMTQyODgwNjE@._V1_QL75_UX280_CR0,25,280,280_.jpg"
+                },
+                { 
+                    "name"   : "Harris Dickinson",
+                    "route"  : "https://es.wikipedia.org/wiki/Harris_Dickinson",           
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BMjQxMjM2MGUtMTMwMy00MTQ4LWFhODMtYTNkNTFhMTNlNTdiXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_QL75_UY280_CR10,0,280,280_.jpg" 
+                },
+                { 
+                    "name"   : "Woody Harrelson",
+                    "route"  : "https://es.wikipedia.org/wiki/Woody_Harrelson",
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BMTU3NDc2ODc4MF5BMl5BanBnXkFtZTcwODk2MzAyMg@@._V1_QL75_UX280_CR0,20,280,280_.jpg" 
+                },
+                { 
+                    "name"   : "Dolly de Leon",
+                    "route"  : "https://en.wikipedia.org/wiki/Dolly_de_Leon",   
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BMThlZjkyYzItYjgxNi00NzQyLTk3MzgtNWVkYmI3MTE5ZTU4XkEyXkFqcGdeQXVyNTI5NjIyMw@@._V1_QL75_UX280_CR0,0,280,280_.jpg" 
+                },
+                { 
+                    "name"   : "Carolina Gynning",
+                    "route"  : "https://es.wikipedia.org/wiki/Carolina_Gynning",         
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BMzRkZmRhNzUtMmIwMy00MzcxLTk5ZDctNWNjMWZhMDYxOWM1XkEyXkFqcGdeQXVyMzc3MTI4MjY@._V1_QL75_UX280_CR0,0,280,280_.jpg" 
+                },
+                { 
+                    "name"   : "Vicki Berlin",
+                    "route"  : "https://en.wikipedia.org/wiki/Vicki_Berlin",     
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BZDU5NTdlNTktNDgwOS00MDI2LTljMzUtMGJiYTRhMzZkNmQxXkEyXkFqcGdeQXVyNzIyODQxODg@._V1_QL75_UX280_CR0,0,280,280_.jpg" 
+                },
+                { 
+                    "name"   : "Iris Berben",
+                    "route"  : "https://en.wikipedia.org/wiki/Iris_Berben",     
+                    "avatar" : "https://m.media-amazon.com/images/M/MV5BMTgyNzIzNDU0NV5BMl5BanBnXkFtZTcwNzY1ODMwNw@@._V1_QL75_UX280_CR0,17,280,280_.jpg" 
+                }
+            ]
+        }
+    ]
+}

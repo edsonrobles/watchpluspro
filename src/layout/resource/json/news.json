@@ -1,0 +1,40 @@
+{
+    "article" : [
+        {
+            "headline"   : "Dahmer-Monstruo:",
+            "title"      : "La historia de Jeffrey Dahmer",
+            "source"     : "Decine21",
+            "moment"     : "2022-10-02T08:35",
+            "route"      : "https://decine21.com/series/dahmer-monstruo-la-historia-de-jeffrey-dahmer-46046",
+            "cover"      : "https://decine21.com/img/upload/obras/dahmer-monstruo-la-historia-de-jeffrey-dahmer-46046/dahmer-monstruo-la-historia-de-jeffrey-dahmer-46046-e1.jpg",
+            "categories" : [ "estreno", "tv serie", "ficha técnica" ]
+        },
+        {
+            "headline"   : "El retorno de las brujas 2",
+            "title"      : "Tuvo que recibir el visto bueno de las hermanas Sanderson",
+            "source"     : "SensaCine",
+            "moment"     : "2022-10-01T05:35",
+            "route"      : "https://www.sensacine.com/noticias/cine/noticia-18595222/",
+            "cover"      : "https://es.web.img3.acsta.net/newsv7/22/09/30/15/30/0129334.jpg",
+            "categories" : [ "noticia", "entrevista" ]
+        },
+        {
+            "headline"   : "Estará protagonizada por Owen Teague",
+            "title"      : "Ya hay título para la nueva entrega de «El Planeta de los Simios»",
+            "source"     : "Decine21",
+            "moment"     : "2022-09-30T05:35",
+            "route"      : "https://decine21.com/noticias/124485-planeta-simios-nueva-entrega",
+            "cover"      : "https://decine21.com/images/noticias/0001/el-planeta-de-los-simios.jpg",
+            "categories" : [ "noticia", "próximamente" ]
+        },
+        {
+            "headline"   : "",
+            "title"      : "Entrevista con China Suárez y Verónica Echegui, actrices de «Objetos»",
+            "source"     : "Decine21",
+            "moment"     : "2022-09-29T05:35",
+            "route"      : "https://decine21.com/entrevistas/124482-objetos-entrevista-veronica-echegui-china-suarez",
+            "cover"      : "https://decine21.com/images/noticias/entrevista-veronica-echegui-objetos.jpg",
+            "categories" : [ "entrevista" ]
+        }
+    ]
+}

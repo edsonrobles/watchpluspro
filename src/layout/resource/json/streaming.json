@@ -1,0 +1,86 @@
+{
+    "clarovideo" : [
+        {
+            "title"  : "Deadpool 2",
+            "score"  : "7.7",
+            "poster" : "https://m.media-amazon.com/images/M/MV5BZGZkNWY0OGMtYTFmOS00ZjIzLTkwODAtMDU0MjY1YzU4NGExXkEyXkFqcGdeQXVyNjc0NTIwNTU@._V1_.jpg"
+        },
+        {
+            "title"  : "Resident evil. El capitulo final",
+            "score"  : "5.5",
+            "poster" : "https://m.media-amazon.com/images/M/MV5BZmQwYzRlZTAtODU5NC00NDEyLWJiYzItM2NlNGM1MDIzODRlXkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_.jpg"
+        },
+        {
+            "title"  : "Terminator genesys",
+            "score"  : "6.3",
+            "poster" : "https://m.media-amazon.com/images/M/MV5BMjM1NTc0NzE4OF5BMl5BanBnXkFtZTgwNDkyNjQ1NTE@._V1_.jpg"
+        },
+        {
+            "title"  : "La patrulla canina. La pelicula",
+            "score"  : "6.1",
+            "poster" : "https://m.media-amazon.com/images/M/MV5BZjdlNzlkYjMtMDYyYy00ZTI2LTg4MmUtZDdlZGU1YTI5MjYzXkEyXkFqcGdeQXVyOTcyNTkzOTA@._V1_.jpg"
+        },
+        {
+            "title"  : "Acapulco Shore",
+            "score"  : "3.2",
+            "poster" : "https://m.media-amazon.com/images/M/MV5BZWEwZTg2N2EtNzA5Mi00ZGVmLWJkNTYtODM5ZDhlNGY0MWMxXkEyXkFqcGdeQXVyNjk1Njg5NTA@._V1_FMjpg_UX680_.jpg"
+        },
+        {
+            "title"  : "Halo. La serie",
+            "score"  : "7.1",
+            "poster" : "https://m.media-amazon.com/images/M/MV5BYmY5YmJiM2QtNjdhOC00NjRhLTgyNDEtYmM1NmJhNjc5NDE2XkEyXkFqcGdeQXVyMjQ4ODcxNTM@._V1_.jpg"
+        },
+        {
+            "title"  : "Buenos vecinos",
+            "score"  : "6.3",
+            "poster" : "https://m.media-amazon.com/images/M/MV5BOTQ0OTkzODgyNF5BMl5BanBnXkFtZTgwOTA3OTE4MDE@._V1_.jpg"
+        },
+        {
+            "title"  : "Dia de patriotas",
+            "score"  : "7.3",
+            "poster" : "https://m.media-amazon.com/images/M/MV5BYTExMzAxYTQtYmU0Yi00NzU2LTkyMTQtOWI2MDBhNDcyMmZiXkEyXkFqcGdeQXVyODc0OTEyNDU@._V1_.jpg"
+        }
+    ],
+    "casavision" : [
+        {
+            "title"  : "Deadpool 2",
+            "score"  : "7.7",
+            "poster" : "https://m.media-amazon.com/images/M/MV5BZGZkNWY0OGMtYTFmOS00ZjIzLTkwODAtMDU0MjY1YzU4NGExXkEyXkFqcGdeQXVyNjc0NTIwNTU@._V1_.jpg"
+        },
+        {
+            "title"  : "Resident evil. El capitulo final",
+            "score"  : "5.5",
+            "poster" : "https://m.media-amazon.com/images/M/MV5BZmQwYzRlZTAtODU5NC00NDEyLWJiYzItM2NlNGM1MDIzODRlXkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_.jpg"
+        },
+        {
+            "title"  : "Terminator genesys",
+            "score"  : "6.3",
+            "poster" : "https://m.media-amazon.com/images/M/MV5BMjM1NTc0NzE4OF5BMl5BanBnXkFtZTgwNDkyNjQ1NTE@._V1_.jpg"
+        },
+        {
+            "title"  : "La patrulla canina. La pelicula",
+            "score"  : "6.1",
+            "poster" : "https://m.media-amazon.com/images/M/MV5BZjdlNzlkYjMtMDYyYy00ZTI2LTg4MmUtZDdlZGU1YTI5MjYzXkEyXkFqcGdeQXVyOTcyNTkzOTA@._V1_.jpg"
+        },
+        {
+            "title"  : "Acapulco Shore",
+            "score"  : "3.2",
+            "poster" : "https://m.media-amazon.com/images/M/MV5BZWEwZTg2N2EtNzA5Mi00ZGVmLWJkNTYtODM5ZDhlNGY0MWMxXkEyXkFqcGdeQXVyNjk1Njg5NTA@._V1_FMjpg_UX680_.jpg"
+        },
+        {
+            "title"  : "Halo. La serie",
+            "score"  : "7.1",
+            "poster" : "https://m.media-amazon.com/images/M/MV5BYmY5YmJiM2QtNjdhOC00NjRhLTgyNDEtYmM1NmJhNjc5NDE2XkEyXkFqcGdeQXVyMjQ4ODcxNTM@._V1_.jpg"
+        },
+        {
+            "title"  : "Buenos vecinos",
+            "score"  : "6.3",
+            "poster" : "https://m.media-amazon.com/images/M/MV5BOTQ0OTkzODgyNF5BMl5BanBnXkFtZTgwOTA3OTE4MDE@._V1_.jpg"
+        },
+        {
+            "title"  : "Dia de patriotas",
+            "score"  : "7.3",
+            "poster" : "https://m.media-amazon.com/images/M/MV5BYTExMzAxYTQtYmU0Yi00NzU2LTkyMTQtOWI2MDBhNDcyMmZiXkEyXkFqcGdeQXVyODc0OTEyNDU@._V1_.jpg"
+        }
+    ]
+}

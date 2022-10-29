@@ -1,0 +1,421 @@
+{
+    "actors" : [
+        {
+            "id"        : "MattSmith",
+            "name"      : "Matt Smith",
+            "character" : "Daemon Targaryen",
+            "avatar"    : "https://www.themoviedb.org/t/p/original/fH1GxtUvAP0bnBsZDlAceNrcXiY.jpg",
+            "role"      : "Actor • Escenografo • Director de cine",
+            "container" : "splide-11",
+            "bio"       : [
+                "Matthew Robert «Matt» Smith es un actor de televisión británico, más conocido por su papel como la Undécima encarnación del Doctor en la serie de televisión británica Doctor Who y a Philip Mountbatten, Duque de Edimburgo, en la serie Crown.",
+                "Aunque inicialmente aspiró a ser un jugador profesional de fútbol, una lesión de espalda le obligó a retirarse de este deporte y después de unirse al National Youth Theatre y estudiar drama y escritura creativa en la Universidad de Anglia del Este, Smith se convirtió en un actor en 2003 y comenzó a actuar en películas como Murder in the Cathedral, Fresh Kills, The History Boys y On the Shore of the Wide World.",
+                "Antes de su papel en Doctor Who, el primer papel de Smith en la televisión llegó en 2006 como Jim Taylor en la adaptación de la BBC de Phillip Pullman The Ruby in the Smoke, mientras que su primer gran papel reconocido en televisión fue como Danny en el 2007 en la serie de la BBC Party Animals."
+            ],
+            "known"     : [
+                {
+                    "title"  : "La casa del dragón", 
+                    "poster" : "https://image.tmdb.org/t/p/w150_and_h225_bestv2/xiB0hsxMpgxpJehYxUDhiUkg2w.jpg"
+                },
+                {
+                    "title"  : "Morbius", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/4jcJHqIVsb4MFdYrDajXeEVlDvH.jpg" 
+                },
+                {
+                    "title"  : "Terminator Genesys", 
+                    "poster" : "https://image.tmdb.org/t/p/w150_and_h225_bestv2/vky6H7mCBjSsg1GMGJtJpGUeVS1.jpg" 
+                },
+                {
+                    "title"  : "Doctor Who", 
+                    "poster" : "https://image.tmdb.org/t/p/w150_and_h225_bestv2/sz4zF5z9zyFh8Z6g5IQPNq91cI7.jpg" 
+                },
+                {
+                    "title"  : "Última noche en el Soho", 
+                    "poster" : "https://image.tmdb.org/t/p/w150_and_h225_bestv2/4eSJJsBZ00qMyoWLe98ulNGvGbC.jpg" 
+                },
+                {
+                    "title"  : "Doctor Who, el día del doctor", 
+                    "poster" : "https://image.tmdb.org/t/p/w150_and_h225_bestv2/qkhP3bhxQQjs1bGEWNts64DOUkK.jpg" 
+                },
+                {
+                    "title"  : "The crown", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/4a7HOUtb6sBpqmuByTxenRxlqds.jpg" 
+                },
+                {
+                    "title"  : "Secretos de estados", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/nmRdVrAy9icP0NWsSjwBUgvlu21.jpg" 
+                }
+            ]
+        },
+        {
+            "id"        : "EmmaDArcy",
+            "name"      : "Emma D'Arcy",
+            "character" : "Rhaenyra Targaryen",
+            "avatar"    : "https://image.tmdb.org/t/p/w300_and_h450_bestv2/9ri4JqVHIls0dgg8ssVGzOHZt6E.jpg",
+            "role"      : "Actriz de cine, televisión y teatro",
+            "container" : "splide-12",
+            "bio"      : [
+                "Emma Zia D'Arcy (Londres, 27 de junio de 1992) es una celebridad británica profesional en la actuación, que se identifica de género no binario (aunque todos sus papeles han sido femeninos). A lo largo de su carrera en el cine, la televisión y el teatro, ha aparecido en producciones televisivas como Truth Seekers y Wanderlust. Interpreta a Rhaenyra Targaryen en la serie de televisión de HBO House of the Dragon, una precuela derivada de Game of Thrones que se estrenó el 21 de agosto de 2022."
+            ],
+            "known"     : [
+                {
+                    "title"  : "La casa del dragón", 
+                    "poster" : "https://image.tmdb.org/t/p/w150_and_h225_bestv2/xiB0hsxMpgxpJehYxUDhiUkg2w.jpg"
+                },
+                {
+                    "title"  : "Truth seekers", 
+                    "poster" : "https://image.tmdb.org/t/p/w150_and_h225_bestv2/zRva67XCxkCRt4WuobrVVysdufU.jpg" 
+                },
+                {
+                    "title"  : "Primavera en Beechwood", 
+                    "poster" : "https://image.tmdb.org/t/p/w150_and_h225_bestv2/1HtqPk4RY4D7GFJ6HuBz3xUCO71.jpg" 
+                },
+                {
+                    "title"  : "Wanderlust", 
+                    "poster" : "https://image.tmdb.org/t/p/w150_and_h225_bestv2/olmAXT1pZatSeqHqoyh4cIOpBuu.jpg" 
+                },
+                {
+                    "title"  : "Rompiendo las normas", 
+                    "poster" : "https://image.tmdb.org/t/p/w150_and_h225_bestv2/aRzjOm1ZehUKWUHaXFv8Rhnde7P.jpg" 
+                },
+                {
+                    "title"  : "Hanna", 
+                    "poster" : "https://image.tmdb.org/t/p/w150_and_h225_bestv2/pe10EUjgO2jgwiu01MAv9l3IjxG.jpg" 
+                },
+                {
+                    "title"  : "They heard him shout allahu akhab", 
+                    "poster" : "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/o40KwlHWLLFW4qXG3QTZRFmsELG.jpg" 
+                },
+                {
+                    "title"  : "Wild bill", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/qIvBbZ1yq3tzIXKqhU3VxYPbizF.jpg" 
+                }
+            ]
+        },
+        {
+            "id"        : "DwayneJohnson",
+            "name"      : "Dwayne Johnson",
+            "character" : "Black Addams",
+            "avatar"    : "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/cgoy7t5Ve075naBPcewZrc08qGw.jpg",
+            "role"      : "Ex luchador • Actor • Productor",
+            "container" : "splide-13",
+            "bio"      : [
+                "Dwayne Douglas Johnson (2 de mayo de 1972) es un actor y luchador profesional estadounidense, conocido popularmente como The Rock (La Roca​ en español). Se desempeñó como luchador profesional para la WWE hasta su retirada oficial en 2019, con el objetivo de centrarse en su carrera artística.",
+                "Ha participado en una gran diversidad de películas siendo premiado en muchas de ellas, siendo su papel como Luke Hobbs en The Fast and the Furious uno de los más reconocidos.",
+                "Entre sus logros como luchador se destacan diez Campeonatos Mundiales: ocho como Campeón de la WWE y dos como Campeón de la WCW. También fue dos veces Campeón Intercontinental de la WWE y cinco veces Campeón Mundial en Parejas. También fue el ganador del Royal Rumble 2000 todo esto lo vuelve Campeón de las Tres Coronas.",
+                "Es famoso por acabar todos sus discursos en el cuadrilátero y al presentarse en escena con la frase: «If you smell... What The Rock is Cooking?» que se puede traducir como: ¿Pueden oler... Lo que está cocinando la Roca? Esta frase es una variación de pregunta-respuesta, un modismo de palabras que pretende hacer un juego con el público, en una pregunta, «¿Si puedes oler?» y el público responde a modo de coro, «Lo que la roca está cocinando», o también usa la Frase: Finally, The Rock is come back.... y da una referencia de la ciudad donde se encuentra.",
+                "El primer papel protagonista de Johnson en una película fue en The Scorpion King en 2002. Por esto, le pagaron $ 5.5 millones, un récord mundial para un actor en su primer papel protagónico. Uno de sus papeles más prominentes es Luke Hobbs en la franquicia The Fast and the Furious. Además organizó y produjo The Hero, una serie de reality shows y desde entonces ha seguido produciendo programas de televisión y películas a través de su productora Seven Bucks Productions.",
+                "En 2013, La revista Forbes nombró a Johnson el No. 25 entre las 100 celebridades más poderosas y ha estado entre los mejores veinte desde entonces. Fue el actor mejor pagado del mundo en el 2016. La revista Time lo nombró una de las 100 personas más influyentes del mundo en 2016. En 2015, La revista Muscle & Fitness lo nombró el «Hombre del siglo»."
+            ],
+            "known"     : [
+                {
+                    "title"  : "Jumanji, bienvenidos a la jungla", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/1uQaSgtHyTN3r2fecL0mSs6geQO.jpg"
+                },
+                {
+                    "title"  : "La falla de San Andres", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/uC4uhJuyOxZQhMcJoKQWbe667Sx.jpg" 
+                },
+                {
+                    "title"  : "Jumanji siguiente nivel", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/a8R5yw0vShsgHSjeikVcPdkaWAW.jpg" 
+                },
+                {
+                    "title"  : "Baywatch, los vigilante de las playas", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/aPifsnK3ui76Cq7xMDe1AVlrA0k.jpg" 
+                },
+                {
+                    "title"  : "Proyecto rampage", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/2aTsJIyw762XO51fcGa7couMygv.jpg" 
+                },
+                {
+                    "title"  : "Fast & Furious, Hobbs & Shaw", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/3KHGWvWDfMa8enQqezGim3aMBQw.jpg" 
+                },
+                {
+                    "title"  : "Moana", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/y6wkgEH1gTWAafH9Bc7cNNut0Kf.jpg" 
+                },
+                {
+                    "title"  : "G.I Jose, la venganza", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/jHgwWPga7CMlpXYkIBqT5HOL3s0.jpg" 
+                }
+            ]
+        },
+        {
+            "id"        : "MorfyddClark",
+            "name"      : "Morfydd Clark",
+            "character" : "Galadriel",
+            "avatar"    : "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/z9z9K6v8YuesOf2N8UySae3lFtJ.jpg",
+            "role"      : "Actriz de cine y teatro",
+            "container" : "splide-14",
+            "bio"      : [
+                "Nació en Suecia, donde su padre trabajaba en ese momento, y pasó allí los primeros dos años de su vida. Luego, la familia regresó a Gales y ella se crió en Cardiff. Se educó en una escuela intermedia galesa y, a la edad de 13 años, interpretó a la Sra. Dai Bread Two en la producción de la escuela de «Under Milk Wood» de Dylan Thomas, su primera experiencia en la actuación. Su primera actuación profesional fue en 2013 en «Blodeuwedd» con Theatr Genedlaethol Cymru.",
+                "Fue nombrada por The Guardian como una de las «Estrellas en ascenso de 2017» y «Estrella del mañana» por Screen International. Ha actuado junto a Glenda Jackson, Dominic West, Rhys Ifans y Jane Horrocks."
+            ],
+            "known"     : [
+                {
+                    "title"  : "El señor de los anillos, los anillos del poder", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/suvlZfDAoq5vfVUrfb468KJhFlL.jpg"
+                },
+                {
+                    "title"  : "Infierno bajo el agua", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/vPCQHc1LqLEC2ozuFQngqvc2SIO.jpg" 
+                },
+                {
+                    "title"  : "Said Maund", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/bSUdp9s8WzUv9Se52Nn5C3UlFH7.jpg" 
+                },
+                {
+                    "title"  : "Amor y amistad", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/aqATmnagUiePZupNa8tHCznCHnO.jpg" 
+                },
+                {
+                    "title"  : "El hombre que invento la navidad", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/t35K3zyfrSNdn5G91y2khBXuqNT.jpg" 
+                },
+                {
+                    "title"  : "Orgullo + prejuicios + zombis", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/b7U8g9mA7spCFnsdZSxcInD8A5q.jpg" 
+                },
+                {
+                    "title"  : "Dracula", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/5SqUNnExnN7Cr8rzyTXJTWmEMHn.jpg" 
+                },
+                {
+                    "title"  : "Jugadores", 
+                    "poster" : "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/ybTaoEgtrMG9MIgvuvww43MXpu.jpg" 
+                }
+            ]
+        },
+        {
+            "id"        : "EvanPeters",
+            "name"      : "Evan Peters",
+            "character" : "Jeffrey Dahmer",
+            "avatar"    : "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/otP7SyCqBhOJuMwVh7DOTBj3CG1.jpg",
+            "role"      : "Actor",
+            "container" : "splide-15",
+            "bio"      : [
+                "Evan Peters (20 de enero de 1987) es un actor estadounidense. Es más conocido por participar en la serie de FX, American Horror Story. Eventualmente, y entre sus roles más destacados, ha personificado a Peter Maximoff/Quicksilver en la película X-Men: días del futuro pasado, y su sucesora y en la serie de Disney+ WandaVision, a Alex en Adult World; y en series como Phil of the Future e Invasión a Seth Wosmer y Jesse Varon, respectivamente. En 2004 se hizo acreedor del premio a la mejor actuación revelación en el Phoenix Film Festival, por su papel protagonista de Adam Sheppard en Clipping Adam."
+            ],
+            "known"     : [
+                {
+                    "title"  : "Dahmer el mounstro, la historia de Jeffrey Dahmer", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/vlUMBgKO1HOwPMJwHnHzr99BHwN.jpg" 
+                },
+                {
+                    "title"  : "American horror story", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/tiuzjuzalHj377XER1sfq7XQEIT.jpg"
+                },
+                {
+                    "title"  : "X Men, apocalypse", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/2mtQwJKVKQrZgTz49Dizb25eOQQ.jpg" 
+                },
+                {
+                    "title"  : "X Men días del futuro pasado", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/ggb9nmS5alJuA0ll0iU5YHiGbb0.jpg" 
+                },
+                {
+                    "title"  : "Animales norteamericanos", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/aLbdKxgxuOPvs6CTlmzoOQ4Yg3j.jpg" 
+                },
+                {
+                    "title"  : "Kick ass, listos para machacar", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/8citjdBmjddZjlPsAHEyCKwGVvD.jpg" 
+                },
+                {
+                    "title"  : "X Men Fenix oscuro", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/rdByKDkfyVuVSrkllzxKYXiZmTd.jpg" 
+                },
+                {
+                    "title"  : "Rompiendo las reglas", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/zNB2nbkOaXYriSAKEQUoome5vgG.jpg" 
+                }
+            ]
+        },
+        {
+            "id"        : "TatianaMaslany",
+            "name"      : "Tatiana Maslany",
+            "character" : "Jennifer Walters / She-Hulk",
+            "avatar"    : "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/ykvrepeHdcpfPpumqU2LwGyG422.jpg",
+            "role"      : "Actriz",
+            "container" : "splide-16",
+            "bio"      : [
+                "Tatiana Gabriele Maslany (nacida el 22 de septiembre de 1985) es una actriz canadiense. Saltó a la fama por interpretar a varios personajes en la serie de televisión de suspenso y ciencia ficción Orphan Black (2013-2017), que le valió un premio Primetime Emmy (2016), dos Critics' Choice Awards (2013 y 2014) y cinco Canadian Screen Awards. (2014-18). Maslany es el primer canadiense en ganar un Emmy en una categoría dramática importante por actuar en una serie canadiense.",
+                "Maslany también apareció en series de televisión como Heartland (2008-2010), The Nativity (2010), Being Erica (2009-2011), Perry Mason (2020) y She-Hulk: Attorney at Law (2022) en el papel principal. de Jennifer Walters / She-Hulk. Sus otras películas destacadas incluyen Diary of the Dead (2007), Eastern Promises (2007), The Vow (2012), Picture Day (2012), Cas and Dylan (2013), Woman in Gold (2015), Stronger (2017), y Destructor (2018). Por protagonizar el drama romántico The Other Half (2016), ganó el Canadian Screen Award a la Mejor Actriz."
+            ],
+            "known"     : [
+                {
+                    "title"  : "She Hulk, abogada de superheroes", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/tGBZafCNpKo6l1B9tWKUaSS5MvD.jpg" 
+                },
+                {
+                    "title"  : "Orphan black", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/5sfJOpwnkuXmXK7K1YDcRY4rTE.jpg"
+                },
+                {
+                    "title"  : "Más fuerte que el destino", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/2HN8u8Cr2xqmlOZsVWhtxP3P2AJ.jpg" 
+                },
+                {
+                    "title"  : "Todos los días mi vida", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/kbTtU8LXhH8MLB7EF7hBZy3WUYC.jpg" 
+                },
+                {
+                    "title"  : "La dama de oro", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/qkqlBlpeSv65GPKtWT0C7tXN2XJ.jpg" 
+                },
+                {
+                    "title"  : "Promesas del este", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/7VXya7414oHrpeZKkslNQ7BMcg9.jpg" 
+                },
+                {
+                    "title"  : "Destroyer, una mujer herida", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/jjZcNNFc8DTudMFbN3OeWo6g2Kn.jpg" 
+                },
+                {
+                    "title"  : "Ginder snap ll", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/gA6gtBa0fWiC3KkEkyPAyhkoFlY.jpg" 
+                }
+            ]
+        },
+        {
+            "id"        : "BradPitt",
+            "name"      : "Brad Pitt",
+            "character" : "Catarina",
+            "avatar"    : "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/3UmLRKzI9fXONhyad2wdQ3JAKDO.jpg",
+            "role"      : "Actor • Productor",
+            "container" : "splide-17",
+            "bio"      : [
+                "William Bradley Pitt (Shawnee, Oklahoma; 18 de diciembre de 1963) es un actor y productor de cine estadounidense. Además de por su trabajo interpretativo, por el que ha sido nominado en tres ocasiones a los Premios Óscar y en cuatro a los Premios Globo de Oro.",
+                "Pitt comenzó su carrera interpretativa al aparecer como invitado en programas de televisión, entre los cuales se incluye un papel en el serial televisivo de CBS, Dallas (1987). Posteriormente, obtuvo reconocimiento de la prensa con la interpretación del cowboy autoestopista que seduce al personaje de Geena Davis en la película Thelma & Louise (1991). Los primeros papeles protagónicos de Pitt en producciones de alto presupuesto fueron A River Runs Through It (1992) y Entrevista con el vampiro (1994). También participó junto con Anthony Hopkins en el drama Leyendas de pasión (1994), papel que le hizo obtener su primera nominación a los Premios Globo de Oro.",
+                "En 1995 recibió aclamación de la crítica por sus interpretaciones en el filme de suspense Se7en y en el de ciencia ficción Doce monos, siendo esta última la que lo hizo ganar un Globo de Oro en la categoría de «mejor actor de reparto» y una nominación al Premio Óscar. Cuatro años más tarde, protagonizó el éxito de culto Fight Club (1999), y poco después actuó en el exitoso filme Ocean's Eleven (2001)."
+            ],
+            "known"     : [
+                {
+                    "title"  : "Malditos bastardos", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/dqu7nUtKTLdpM7DaJvD4zcSXhn1.jpg" 
+                },
+                {
+                    "title"  : "Se7en", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/uVPcVz4b2hnSGrXYLdIGRXwcivs.jpg"
+                },
+                {
+                    "title"  : "Guerra mundial Z", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/a8ogjWFd0QS6BzBkzfDMWukc26i.jpg" 
+                },
+                {
+                    "title"  : "El club de la pelea", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/1yWmCAIGSVNuTOGyz9F48W9g1Ux.jpg" 
+                },
+                {
+                    "title"  : "El curiosos caso de Benjamin Burton", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/tq8yOj5fu4aLVdMUbibm9GEkmuN.jpg" 
+                },
+                {
+                    "title"  : "Corazones de acero", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/kbtH5G8L8REzy72LkLmKYoBVaGv.jpg" 
+                },
+                {
+                    "title"  : "Sr y Sra Smith", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/wNi7Axc8U4cI9BgryeuF5tpi0I1.jpg" 
+                },
+                {
+                    "title"  : "Troya", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/rthioP0Xgfl818DJeHcyiHxWHPN.jpg" 
+                }
+            ]
+        },
+        {
+            "id"        : "HarryStyles",
+            "name"      : "HarryStyles",
+            "character" : "Jack",
+            "avatar"    : "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/84IKkPy5udiiMpXgYIC6Q1jB5WE.jpg",
+            "role"      : "Músico • Actor",
+            "container" : "splide-18",
+            "bio"      : [
+                "Harry Edward Styles (nacido el 1 de febrero de 1994) es un cantante y compositor inglés. Su carrera musical comenzó en 2010 como concursante solista en la serie de competencia musical británica The X Factor. Después de su eliminación temprana, lo trajeron de regreso para unirse a la banda de chicos One Direction, que se convirtió en una de las bandas de chicos más vendidas de todos los tiempos."
+            ],
+            "known"     : [
+                {
+                    "title"  : "Dunkerquer", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/iWzrUYxUfnpmLbm0rwyGKuFwpTO.jpg" 
+                },
+                {
+                    "title"  : "One direction, this is us", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/g4UUR4K3e1gfifF8dNorAUoqU5Y.jpg"
+                },
+                {
+                    "title"  : "No te preocupes querida", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/f03o43FHj2qE48noSH82yxCDI7k.jpg" 
+                },
+                {
+                    "title"  : "Eternals", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/v2RltE8xIdK5zrQgNxxXh4OAvHO.jpg" 
+                },
+                {
+                    "title"  : "One direction, where we are", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/wC3qjKzQTZ5yHEkTTyjsoRS0gir.jpg" 
+                },
+                {
+                    "title"  : "Harry Styles, behind of the album", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/M9Ejub7fkAkBsqt6gz3gZJU5gO.jpg" 
+                },
+                {
+                    "title"  : "One direction, up all night", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/evC6gDZCufGYMkLFTRbDe07UG8N.jpg" 
+                },
+                {
+                    "title"  : "Harry Styles, at the BBC", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/7UkD0YupzaH2JrKiEo1p9fJRZg2.jpg" 
+                }
+            ]
+        },
+        {
+            "id"        : "ViolaDavis",
+            "name"      : "Viola Davis",
+            "character" : "Nanisca",
+            "avatar"    : "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/xDssw6vpYNRjsybvMPRE30e0dPN.jpg",
+            "role"      : "Actriz • Productora",
+            "container" : "splide-19",
+            "bio"      : [
+                "Viola Davis (nacida el 11 de agosto de 1965) es una actriz estadounidense. Conocida principalmente como actriz de teatro, Davis ganó un premio Tony a la mejor interpretación de una actriz destacada en una obra de teatro y un premio Drama Desk por su papel en King Hedley II (2001). Ganó un premio Tony a la mejor interpretación de una actriz principal en una obra de teatro por su papel en Fences. Ganó un segundo premio Drama Desk por Intimate Apparel (2004).",
+                "Sus películas incluyen Traffic (2000), Antwone Fisher (2002) y Solaris (2002). Su actuación en Doubt (2008) fue nominada a varios premios, incluido un Premio de la Academia a la Mejor Actriz de Reparto y un Globo de Oro a la Mejor Actriz de Reparto en una Película."
+            ],
+            "known"     : [
+                {
+                    "title"  : "Escuadron suicida", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/9ymhU7NclJr29MpZnBQbJurYbuc.jpg" 
+                },
+                {
+                    "title"  : "Criadas y señoras", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/7V5sfN6fNNXvDdr9BPIIIOtPWOp.jpg"
+                },
+                {
+                    "title"  : "Viudas", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/klnT1cOnFwu72OMfPeKYg7kj3Dw.jpg" 
+                },
+                {
+                    "title"  : "Prisioneros", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/i6CcmOvJxBFH3mfhCHa3Njtelix.jpg" 
+                },
+                {
+                    "title"  : "El juego del Ender", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/7jHrYKpG3gHRFtTvLcDp75OSrZo.jpg" 
+                },
+                {
+                    "title"  : "Asesino", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/eUEsf3OF3E5gRPvVwy8JDV1Q9BJ.jpg" 
+                },
+                {
+                    "title"  : "Fences", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/mCvMXsEbdMW2ESEATDcs14Urh9y.jpg" 
+                },
+                {
+                    "title"  : "El escuadron suicida", 
+                    "poster" : "https://www.themoviedb.org/t/p/w150_and_h225_bestv2/fPJWlhXA2VXf4MlQ3JenVsz1iba.jpg" 
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "generic" : {
+        "domain"   : "http://www.watchplus.pro",
+        "username" : "@watchpluspro",
+        "facebook" : "Watch + es la primera revista en formato web app o digital de cine, anime y videjuegos de nuestro país. Aunque el adjetivo se emplea frecuentemente, la realidad es que somos los primeros que traemos a nuestra tierra pinolera este magnífico formato que se utiliza en paises ya desarrollados.",
+        "twitter"  : "Watch + es una web app semanal, en la que profundizamos en territorios como el cine, series, anime, videojuegos, etc… y otros contenido relacionados a nuestra tématica original."
+    },
+    "home" : {
+        "title"       : "Watch + | Reseñas, cartelera, recomendaciones y todo sobre el cine y el streaming.",
+        "notfound"    : "Página no encontrada • Watch +",
+        "category"    : "Web app, Watchplus, Watchpluspro, Revista de cine, Publicacion de cinesm anime y videojuegos",
+        "keywords"    : "Watchpus, Watchpluspro, películas, pelis, cine, cartelera, actores, actrices, estrellas, fotos, trailers, videos, fotogramas",
+        "image"       : "asset/img/seo/home.jpg",
+        "miniature"   : "http://www.rbandlr.com/asset/img/seo/home.jpg",
+        "description" : "Hablamos de todos y cada uno de los estrenos semanales en cine y streaming, brindamos nuestras recomendaciones y ponemos el acento a los temas más impactante para nuestros lectores."
+    },
+    "frikizone" : {
+        "title"       : "Zona friki es la sección dedicada a los animes y videojuegos.",
+        "category"    : "Design Studio, Brand Studio, Digital Content",
+        "keywords"    : "RB&LR, Branding, Design Studio, Brand Studio, Digital Content",
+        "image"       : "asset/img/seo/home.jpg",
+        "miniature"   : "http://www.rbandlr.com/asset/img/seo/home.jpg",
+        "description" : "Zona friki es la sección dedicada a los animes y videojuegos. Aquí destacamos aquellos que llegan al cine y todo los que los rodea."
+    }
+}

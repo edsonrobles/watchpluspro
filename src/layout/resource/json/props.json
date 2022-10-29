@@ -1,0 +1,96 @@
+{
+    "watch"   : {
+        "caption" : "La primera web app de Nicaragua basada en el cine y los videojuegos sin dejar a un lado el anime",
+        "avatar" : "https://scontent.fmga4-1.fna.fbcdn.net/v/t39.30808-6/272860268_103310252276914_4669571939877958282_n.png?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=i810Kz6zG9MAX92Sits&_nc_ht=scontent.fmga4-1.fna&oh=00_AT9gbdcAatrtPvvN583S7ibTYp5tRshnDhxTw9OYDrVtYw&oe=6347D00A",
+        "networks" : [
+            { "key" : "facebook",  "route" : "https://facebook.com/watchpluspro",  "icon" : "bi bi-facebook"  },
+            { "key" : "twitter",   "route" : "https://twitter.com/watchpluspro",   "icon" : "bi bi-twitter"   },
+            { "key" : "instagram", "route" : "https://instagram.com/watchpluspro", "icon" : "bi bi-instagram" },
+            { "key" : "youtube",   "route" : "https://youtube.com/watchpluspro",   "icon" : "bi bi-youtube"   },
+            { "key" : "tiktok",    "route" : "https://tiktok.com/@watchpluspro",   "icon" : "bi bi-tiktok"    }
+        ],
+        "hashtag" : [
+            { "key" : "facebook",  "route" : "https://facebook.com/watchpluspro",  "title" : "ElMejorCosplay",      "post" : "7 Post"  },
+            { "key" : "twitter",   "route" : "https://twitter.com/watchpluspro",   "title" : "SomosWatch",          "post" : "8 Post"  },
+            { "key" : "instagram", "route" : "https://instagram.com/watchpluspro", "title" : "LasMejoresEscenas",   "post" : "12 Post" },
+            { "key" : "youtube",   "route" : "https://youtube.com/watchpluspro",   "title" : "BatallaDePersonajes", "post" : "8 Post"  },
+            { "key" : "tiktok",    "route" : "https://tiktok.com/@watchpluspro",   "title" : "SeguidoresWatch",     "post" : "2 Post"  }
+        ],
+        "partners" : [
+            {
+                "route"   : "https://rbandlr.netlify.app",
+                "company" : "RB&LR Brand Studio & Digital Content",
+                "caption" : "Agencia de comunicación",
+                "avatar"  : "https://scontent.fmga4-1.fna.fbcdn.net/v/t39.30808-6/272860268_103310252276914_4669571939877958282_n.png?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=i810Kz6zG9MAX92Sits&_nc_ht=scontent.fmga4-1.fna&oh=00_AT9gbdcAatrtPvvN583S7ibTYp5tRshnDhxTw9OYDrVtYw&oe=6347D00A"
+            }, 
+            {
+                "route"   : "https://viimor.com/",
+                "company" : "Viimor learning",
+                "caption" : "Plataforma digital de información",
+                "avatar"  : "https://scontent.fmga4-1.fna.fbcdn.net/v/t39.30808-6/302488146_455082046636604_3865663631968410793_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=GYovYjNjuLkAX_71g82&_nc_ht=scontent.fmga4-1.fna&oh=00_AT8PW5odfOWdOtStqHpVLi8d6dJUMx4uL7FyW-VENog8cA&oe=63466B99"
+            } 
+        ]
+    },
+    
+    "rbandlr" : {
+        "caption" : "Las marcas y piezas gráficas visuales que diseñamos contienen un proposito memorable, desde el diseño y la implementación de los conceptos trabajamos en conjunto con nuestros clientes para generar resultados únicos y significativos."
+    },
+    
+    
+    
+    
+    "cinemark" : {
+        "cinema"   : "cinemark",
+        "address"  : "Centro comercial Metrocentro",
+        "networks" : [
+            { "social" : "website",   "route" : "https://www.cinemarkca.com/nicaragua/",  "icon" : "bi bi-browser-chrome" },
+            { "social" : "facebook",  "route" : "https://www.facebook.com/cinemarkni",    "icon" : "bi bi-facebook"       },
+            { "social" : "twitter",   "route" : "https://twitter.com/cinemarkca",         "icon" : "bi bi-twitter"        },
+            { "social" : "instagram", "route" : "https://www.instagram.com/cinemark_ca/", "icon" : "bi bi-instagram"      }
+        ]
+    },
+    "siglonuevo" : {
+        "cinema"   : "siglo nuevo",
+        "address"  : "Centro comercial Las Brisas",
+        "networks" : [
+            { "social" : "website",   "route" : "https://facebook.com/cinesiglonuevo",  "icon" : "bi bi-browser-chrome" },
+            { "social" : "facebook",  "route" : "https://twitter.com/cinesiglonuevo",   "icon" : "bi bi-facebook"       },
+            { "social" : "twitter",   "route" : "https://instagram.com/cinesiglonuevo", "icon" : "bi bi-twitter"        },
+            { "social" : "instagram", "route" : "https://instagram.com/cinesiglonuevo", "icon" : "bi bi-instagram"      }
+        ],
+        "promotions" : [
+            {
+                "title"  : "Combo amigos",
+                "advert" : "https://www.psiglonuevo.com/wp-content/uploads/2022/04/combo-amigos-1030x580.jpg"
+            },
+            {
+                "title"  : "Combo chips",
+                "advert" : "https://www.psiglonuevo.com/wp-content/uploads/2022/04/combo-chip-1030x581.jpg"
+            },
+            {
+                "title"  : "Combo familiar",
+                "advert" : "https://www.psiglonuevo.com/wp-content/uploads/2022/04/combo-familiar-1030x581.jpg"
+            },
+            {
+                "title"  : "Combo palomitas 3",
+                "advert" : "https://www.psiglonuevo.com/wp-content/uploads/2022/04/combo-palomita-3-1030x581.jpg"
+            },
+            {
+                "title"  : "Combo palomitas + hotdog",
+                "advert" : "https://www.psiglonuevo.com/wp-content/uploads/2022/04/combo-palomitas-mas-hotdog-1030x581.jpg"
+            },
+            {
+                "title"  : "Combo películas",
+                "advert" : "https://www.psiglonuevo.com/wp-content/uploads/2022/04/combo-pelicula-1030x581.jpg"
+            },
+            {
+                "title"  : "Combo películas de la semana",
+                "advert" : "https://www.psiglonuevo.com/wp-content/uploads/2022/04/fin-de-semana-pelicula-hotdog-1030x581.jpg"
+            },
+            {
+                "title"  : "Combo películas de la semana 2",
+                "advert" : "https://www.psiglonuevo.com/wp-content/uploads/2022/04/fin-de-semana-pelicula-nacho-1030x581.jpg"
+            }
+        ]
+    }
+}
