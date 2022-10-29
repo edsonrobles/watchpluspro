@@ -1,0 +1,99 @@
+@use '../config/function.scss' as *;
+@use '../config/theme.scss'    as *;
+@use '../config/mixins.scss'   as *;
+
+
+.bio {
+    width  : 100%;
+    height : 100%;
+    
+    &__avatar {
+        @include components (100%, 100%, rem(6px));
+        object-fit    : cover;
+        overflow      : hidden;
+        margin-bottom : rem(8px);
+    }
+
+    &__modal {
+        width      : 100%;
+        z-index    : 999999;
+        background : rgba($tonal-second, .8);
+    }
+
+    &__wrapper {
+        @include components (100%, auto, rem(8px));
+    }
+    
+    &__body,
+    &__footer {
+        width    : 100%;
+        overflow : hidden;
+        padding  : rem(16px);
+    }
+    
+    &__header {
+        line-height   : rem(2px);
+        padding       : rem(16px);
+        position      : relative;
+        border-bottom : 1px solid var(--background);
+    }
+
+    &__close {
+        @include font (var(--heading), var(--heading-2), normal);
+        position : absolute;
+        z-index  : 20;
+        top      : 0;
+        right    : 0;
+        padding  : rem(8px)
+    }
+
+    &__poster {
+        @include components (100%, 100%, rem(4px));
+        overflow : hidden;
+    }
+
+    &__title,
+    &__actor {
+        @include font (var(--heading), var(--heading-5), 600);
+        margin-bottom : rem(8px);
+    }
+
+    &__actor {
+        text-align    : left;
+        margin-bottom : 0;
+
+        @include mediaquery (mobile) {
+            font-size : var(--heading-6);
+        }
+    }
+    
+    &--actor {
+        display     : block;
+        color       : var(--content-alt);
+        font-size   : var(--heading-6);
+        font-weight : normal;
+        
+        @include mediaquery (mobile) {
+            font-size : var(--heading-7);
+        }
+    }
+    
+    &--title {
+        font-size  : var(--heading-2);
+        text-align : center;
+    }
+
+    &__bio {
+        @include font (var(--content), var(--heading-6), normal);
+        margin-bottom : rem(4px);
+
+        &:last-child {
+            margin-bottom : 0;
+        }
+    }
+
+    &--bio {
+        color      : var(--caption);
+        text-align : center;
+    }
+}

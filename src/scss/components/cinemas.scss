@@ -1,0 +1,81 @@
+@use '../config/function.scss' as *;
+@use '../config/theme.scss' as *;
+@use '../config/mixins.scss' as *;
+
+
+.cinemas {
+    width  : 100%;
+    height : rem(296px);
+
+    &__card {
+        @include components (100%, 100%, rem(6px));
+        position        : relative;
+        overflow        : hidden;
+        display         : flex;
+        justify-content : center;
+        align-items     : center;
+    }
+
+    &__movie {
+        width      : 100%;
+        height     : 100%;
+        object-fit : cover;
+    }
+
+    &__wrapper {
+        position        : absolute;
+        z-index         : 10;
+        width           : 100%;
+        height          : 100%;
+        padding         : rem(8px);
+        display         : flex;
+        flex-direction  : column;
+        justify-content : space-between;
+    }
+
+    &--wrapper {
+        width : auto;
+        top   : 0;
+        left  : 0;
+    }
+
+    &__header,
+    &__footer {
+        width : 100%;
+    }
+    
+    &__header {
+        display     : flex;
+        align-items : center;
+        gap         : rem(8px);
+    }
+
+    &__content {
+        @include font (var(--caption-alt, .8), var(--heading-6), normal);
+        text-transform : uppercase;
+        letter-spacing : rem(-.5px);
+    }
+    
+    &--content {
+        color          : var(--components);
+        letter-spacing : 0;
+    }
+
+    &__showtimes {
+        width     : 100%;
+        display   : flex;
+        flex-wrap : wrap;
+        gap       : rem(4px);
+    }
+
+    &__item {
+        @include font (var(--components), var(--heading-6), normal);
+    }
+
+    &__content,
+    &__item {
+        background     : rgba($color: $heading, $alpha: .8);
+        padding        : rem(2px) rem(8px);
+        border-radius  : rem(4px);
+    }
+}

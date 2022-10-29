@@ -1,0 +1,249 @@
+@use '../config/function.scss' as *;
+@use '../config/theme.scss'    as *;
+@use '../config/mixins.scss'   as *;
+
+
+.bet {
+    @include components (100%, 100%, rem(8px));
+    position     : relative;
+    overflow     : hidden;
+    padding-left : rem(64px);
+    display      : flex;
+
+    @include mediaquery (desktop) {
+        padding-left : rem(32px);
+    }
+    
+    @include mediaquery (laptop) {
+        padding-left : rem(64px);
+    }
+    
+    @include mediaquery (tablet) {
+        padding-left : rem(32px);
+    }
+    
+    &:nth-child(1) {
+        grid-column : 1/ span 1;
+        grid-row    : 1/ span 1;
+
+        @include mediaquery (rem(690px)) {
+            grid-column : 1/ span 1;
+            grid-row    : 1/ span 1;
+        }
+    }
+    
+    &:nth-child(2) {
+        grid-column : 2/ span 1;
+        grid-row    : 1/ span 1;
+
+        @include mediaquery (rem(690px)) {
+            grid-column : 1/ span 1;
+            grid-row    : 2/ span 1;
+        }
+    }
+    
+    &:nth-child(3) {
+        grid-column : 3/ span 1;
+        grid-row    : 1/ span 1;
+
+        @include mediaquery (laptop) {
+            grid-column : 1/ span 1;
+            grid-row    : 2/ span 1;
+        }
+
+        @include mediaquery (rem(690px)) {
+            grid-column : 1/ span 1;
+            grid-row    : 3/ span 1;
+        }
+    }
+    
+    &:nth-child(4) {
+        grid-column : 1/ span 1;
+        grid-row    : 2/ span 1;
+
+        @include mediaquery (laptop) {
+            grid-column : 2/ span 1;
+            grid-row    : 2/ span 1;
+        }
+
+        @include mediaquery (rem(690px)) {
+            grid-column : 1/ span 1;
+            grid-row    : 4/ span 1;
+        }
+    }
+    
+    &:nth-child(5) {
+        grid-column : 2/ span 1;
+        grid-row    : 2/ span 1;
+
+        @include mediaquery (laptop) {
+            grid-column : 1/ span 1;
+            grid-row    : 3/ span 1;
+        }
+
+        @include mediaquery (rem(690px)) {
+            grid-column : 1/ span 1;
+            grid-row    : 5/ span 1;
+        }
+    }
+    
+    &:nth-child(6) {
+        grid-column : 3/ span 1;
+        grid-row    : 2/ span 1;
+
+        @include mediaquery (laptop) {
+            grid-column : 2/ span 1;
+            grid-row    : 3/ span 1;
+        }
+
+        @include mediaquery (rem(690px)) {
+            grid-column : 1/ span 1;
+            grid-row    : 6/ span 1;
+        }
+    }
+    
+    &:nth-child(7) {
+        grid-column : 1/ span 1;
+        grid-row    : 4/ span 1;
+
+        @include mediaquery (laptop) {
+            grid-column : 1/ span 1;
+            grid-row    : 5/ span 1;
+        }
+
+        @include mediaquery (rem(690px)) {
+            grid-column : 1/ span 1;
+            grid-row    : 8/ span 1;
+        }
+    }
+    
+    &:nth-child(8) {
+        grid-column : 2/ span 1;
+        grid-row    : 4/ span 1;
+
+        @include mediaquery (laptop) {
+            grid-column : 2/ span 1;
+            grid-row    : 5/ span 1;
+        }
+
+        @include mediaquery (rem(690px)) {
+            grid-column : 1/ span 1;
+            grid-row    : 9/ span 1;
+        }
+    }
+    
+    &:nth-child(9) {
+        grid-column : 3/ span 1;
+        grid-row    : 4/ span 1;
+
+        @include mediaquery (laptop) {
+            grid-column : 1/ span 1;
+            grid-row    : 6/ span 1;
+        }
+
+        @include mediaquery (rem(690px)) {
+            grid-column : 1/ span 1;
+            grid-row    : 10/ span 1;
+        }
+    }
+
+    &__poster {
+        height: 100%;
+    }
+
+    &__button {
+        position : absolute;
+        z-index  : 10;
+        top      : 0;
+        left     : 0;
+        width    : 100%;
+        height   : 100%;
+    }
+
+    &__content {
+        width    : 100%;
+        height   : 100%;
+        padding  : rem(8px);
+        position : relative;
+    }
+
+    &__header,
+    &__footer {
+        width       : 100%;
+        display     : flex;
+        align-items : flex-end;
+    }
+
+    &__header {
+        height: 60%;
+    }
+
+    &__footer {
+        height: 40%;
+    }
+
+    &__title {
+        @include font (var(--heading), var(--heading-5), 600);
+
+        @include mediaquery (tablet) {
+            font-size : var(--heading-6);
+        }
+        
+        @include mediaquery (rem(690px)) {
+            font-size : var(--heading-5);
+        }
+
+        @include mediaquery (rem(360px)) {
+            font-size : var(--heading-6);
+        }
+    }
+
+    &--title {
+        @include font (var(--caption), var(--heading-6), normal);
+        display    : block;
+        margin-top : rem(4px);
+
+        @include mediaquery (tablet) {
+            font-size : var(--heading-7);
+        }
+
+        @include mediaquery (rem(690px)) {
+            font-size : var(--heading-6);
+        }
+
+        @include mediaquery (360px) {
+            font-size : var(--heading-7);
+        }
+    }
+
+    &__title::first-letter {
+        text-transform : uppercase;
+    }
+
+    &__datasheet {
+        @include font (var(--content), rem(12px), normal);
+
+        @include mediaquery (tablet) {
+            font-size : var(--heading-7);
+        }
+
+        @include mediaquery (rem(690px)) {
+            font-size : rem(12px);
+        }
+
+        @include mediaquery (rem(360px)) {
+            font-size : var(--heading-7);
+        }
+    }
+
+    &__score {
+        @include font (var(--components), var(--heading-7), normal);
+        position      : absolute;
+        top           : 0;
+        right         : 0;
+        padding       : rem(4px) rem(8px);
+        background    : rgba($tonal-second, .8);
+        margin        : rem(8px) rem(8px) 0 0;
+        border-radius : rem(4px);
+    }
+}

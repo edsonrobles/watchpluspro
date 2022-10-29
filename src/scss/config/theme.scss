@@ -1,0 +1,194 @@
+@use './function.scss' as *;
+
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Merriweather:wght@100;200;300;400;500;600;800;900&display=swap);
+
+
+$font-family            :    'Poppins', sans-serif;
+$font-family-alt        :    'Roboto', sans-serif;
+$font-family-content    :    'Roboto Slab', serif;
+$font-advert-rbandlr    :    'Merriweather', serif;
+$font-size-1            :    rem(48px);
+$font-size-2            :    rem(20px);
+$font-size-3            :    rem(18px);
+$font-size-4            :    rem(16px);
+$font-size-5            :    rem(14px);
+$font-size-6            :    rem(12px);
+$font-size-7            :    rem(10px);
+$font-size-8            :    rem(8px);
+$color-first            :    #FED302;
+$color-second           :    #E4A424;
+$color-third            :    #Ed691C;
+$color-fourth           :    #4682B4;
+$color-fifth            :    #00DA24;
+$social-first           :    #1778F2;
+$social-second          :    #1DA1F2;
+$social-third           :    #E1306C;
+$social-fourth          :    #FF0000;
+$social-fifth           :    #25F4EE;
+$tonal-first            :    #18191A;
+$tonal-second           :    #242526;
+$tonal-third            :    #3A3B3C;
+$tonal-fourth           :    #65676B;
+$tonal-fifth            :    #B0B3B8;
+$tonal-sixth            :    #E4E6EB;
+$tonal-seventh          :    #F0F2F5;
+$tonal-eighth           :    #FFFFFF;
+$gradient-first         :     linear-gradient(45deg, $color-first 0%, $color-second 100%);
+
+
+$font-app               :    $font-family;
+$font-app-alt           :    $font-family-alt;
+$font-family-content    :    $font-family-content;
+$font-advert-rbandlr    :    $font-advert-rbandlr;
+$heading-1              :    $font-size-1;
+$heading-2              :    $font-size-2;
+$heading-3              :    $font-size-3;
+$heading-4              :    $font-size-4;
+$heading-5              :    $font-size-5;
+$heading-6              :    $font-size-6;
+$heading-7              :    $font-size-7;
+$heading-8              :    $font-size-8;
+$color                  :    $color-first;
+$color-alt              :    $color-second;
+$color-gradient         :    $gradient-first;
+$notification           :    $color-third;
+$content-alt            :    $color-fourth;
+$caption-alt            :    $color-fifth;
+$facebook               :    $social-first;
+$twitter                :    $social-second;
+$instagram              :    $social-third;
+$youtube                :    $social-fourth;
+$tiktok                 :    $social-fifth;
+$heading                :    $tonal-second;
+$content                :    $tonal-third;
+$caption                :    $tonal-fourth;
+$section                :    $tonal-fifth;
+$background             :    $tonal-seventh;
+$components             :    $tonal-eighth;
+
+
+:root {
+    --font-family            :    #{$font-family};
+    --font-family-alt        :    #{$font-family-alt};
+    --font-family-content    :    #{$font-family-content};
+    --font-advert-rbandlr    :    #{$font-advert-rbandlr};
+    --font-size-1            :    #{$font-size-1};
+    --font-size-2            :    #{$font-size-2};
+    --font-size-3            :    #{$font-size-3};
+    --font-size-4            :    #{$font-size-4};
+    --font-size-5            :    #{$font-size-5};
+    --font-size-6            :    #{$font-size-6};
+    --font-size-7            :    #{$font-size-7};
+    --font-size-8            :    #{$font-size-8};
+    --color-first            :    #{$color-first};
+    --color-second           :    #{$color-second};
+    --color-third            :    #{$color-third};
+    --color-fourth           :    #{$color-fourth};
+    --color-fifth            :    #{$color-fifth};
+    --social-first           :    #{$social-first};
+    --social-second          :    #{$social-second};
+    --social-third           :    #{$social-third};
+    --social-fourth          :    #{$social-fourth};
+    --social-fifth           :    #{$social-fifth};
+    --tonal-first            :    #{$tonal-first};
+    --tonal-second           :    #{$tonal-second};
+    --tonal-third            :    #{$tonal-third};
+    --tonal-fourth           :    #{$tonal-fourth};
+    --tonal-fifth            :    #{$tonal-fifth};
+    --tonal-sixth            :    #{$tonal-sixth};
+    --tonal-seventh          :    #{$tonal-seventh};
+    --tonal-eighth           :    #{$tonal-eighth};
+    --gradient-first         :    #{$gradient-first};
+}
+
+
+.watchplus {
+    --font-app               :    var(--font-family);
+    --font-app-alt           :    var(--font-family-alt);
+    --heading-1              :    var(--font-size-1);
+    --heading-2              :    var(--font-size-2);
+    --heading-3              :    var(--font-size-3);
+    --heading-4              :    var(--font-size-4);
+    --heading-5              :    var(--font-size-5);
+    --heading-6              :    var(--font-size-6);
+    --heading-7              :    var(--font-size-7);
+    --heading-8              :    var(--font-size-8);
+    --color                  :    var(--color-first);
+    --color-alt              :    var(--color-second);
+    --color-gradient         :    var(--gradient-first);
+    --messages               :    var(--color-third);
+    --content-alt            :    var(--color-fourth);
+    --caption-alt            :    var(--color-fifth);
+    --facebook               :    var(--social-first);
+    --twitter                :    var(--social-second);
+    --instagram              :    var(--social-third);
+    --youtube                :    var(--social-fourth);
+    --tiktok                 :    var(--social-fifth);
+    --heading                :    var(--tonal-third);
+    --content                :    var(--tonal-fourth);
+    --caption                :    var(--tonal-fifth);
+    --section                :    var(--tonal-fifth);
+    --background             :    var(--tonal-seventh);
+    --components             :    var(--tonal-eighth);
+}
+
+.notifications {
+    --font-app : var(--font-family-alt);
+}
+
+.rbandlr {
+    --font-app : var(--font-advert-rbandlr);
+}
+
+.datasheet,
+.footer,
+.casavision,
+.bio__modal,
+.suggestions__content {
+    --font-app : var(--font-app-alt);
+}
+
+
+$colors : (
+    color             :    var(--color-first),
+    color-alt         :    var(--color-second),
+    color-gradient    :    var(--gradient-first),
+    notification      :    var(--color-third),
+    content-alt       :    var(--color-fourth),
+    caption-alt       :    var(--color-fifth),
+    facebook          :    var(--facebook),
+    twitter           :    var(--twitter),
+    instagram         :    var(--instagram),
+    youtube           :    var(--youtube),
+    tiktok            :    var(--tiktok),
+    heading           :    var(--tonal-third),
+    content           :    var(--tonal-fourth),
+    caption           :    var(--tonal-fifth),
+    section           :    var(--tonal-fifth),
+    background        :    var(--tonal-seventh),
+    components        :    var(--tonal-eighth),
+);
+
+$typographys : (
+    heading-1         :    var(--font-size-1),
+    heading-2         :    var(--font-size-2),
+    heading-3         :    var(--font-size-3),
+    heading-4         :    var(--font-size-4),
+    heading-5         :    var(--font-size-5),
+    heading-6         :    var(--font-size-6),
+    heading-7         :    var(--font-size-7),
+    heading-8         :    var(--font-size-8),
+);
+
+@each $color, $value in $colors {
+    .bg-#{$color}   { background : #{$value}; }
+    .text-#{$color} { color : #{$value}; }
+}
+
+@each $typography, $value in $typographys {
+    .#{$typography} { font-size : #{$value}; }
+}

@@ -1,0 +1,130 @@
+@use '../config/function.scss' as *;
+@use '../config/theme.scss'    as *;
+@use '../config/mixins.scss'   as *;
+
+
+.account {
+
+    &__mobile {
+        display: none;
+
+        @include mediaquery (tablet) {
+            display : block;
+        }
+    }
+
+    &__avatar {
+        min-width     : rem(40px);
+        height        : rem(40px);
+        border-radius : 50%;
+        overflow      : hidden;
+
+        @include mediaquery (tablet) {
+            min-width : rem(24px);
+            height    : rem(24px);
+        }
+    }
+
+    &__nav {
+        @include components (rem(300px), auto, rem(8px));
+    }
+
+    &__content {
+        width   : 100%;
+        padding : rem(4px) rem(8px);
+    }
+
+    &--content {
+        width    : 100%;
+        height   : rem(280px);
+        overflow : auto;
+    }
+
+    &__profile {
+        display     : flex;
+        align-items : center;
+    }
+
+    &__title {
+        @include font (var(--content), var(--heading-5), 600);
+    }
+    
+    &--title {
+        font-size      : var(--heading-8);
+        font-weight    : normal;
+        text-transform : uppercase;
+    }
+
+    &__partner {
+        @include font (var(--content), var(--heading-6), 600);
+        line-height : rem(14px);
+    }
+    
+    &__caption {
+        @include font (var(--caption), var(--heading-7), normal);
+    }
+
+    &__section,
+    &__route {
+        width         : 100%;
+        margin-bottom : rem(16px);
+    
+        &:last-child { margin-bottom : 0; }
+    }
+
+    &--route {
+        margin-bottom : rem(8px);
+    }
+    
+    &__heading {
+        width           : 100%;
+        display         : flex;
+        justify-content : space-between;
+        align-items     : center;
+        margin-bottom : rem(8px);
+    }
+
+    &__networks {
+        width           : 100%;
+        display         : flex;
+        justify-content : space-between;
+        align-items     : center;
+        background      : var(--background);
+        padding         : rem(8px) rem(12px);
+        border-radius   : rem(4px);
+    }
+
+    &--networks {
+        flex-direction : column;
+        background     : none;
+        align-items    : flex-start;
+        padding        : 0;
+    }
+
+    &__social {
+        color           : var(--components);
+        width           : rem(32px);
+        height          : rem(32px);
+        border-radius   : 50%;
+        display         : flex;
+        justify-content : center;
+        align-items     : center;
+        overflow        : hidden;
+    }
+    
+    &--social {
+        width  : rem(28px);
+        height : rem(28px);
+    }
+
+
+    &__hashtag {
+        display     : flex;
+        align-items : center;
+        gap         : rem(8px);
+    }
+
+    &__items {
+        line-height: rem(14px);
+    }
+}

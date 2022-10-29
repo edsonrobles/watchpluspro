@@ -1,0 +1,122 @@
+@use '../config/function.scss' as *;
+@use '../config/theme.scss'    as *;
+@use '../config/mixins.scss'   as *;
+
+
+.streaming {
+    width       : 100%;
+    min-height  : rem(360px);
+    display     : flex;
+    align-items : center;
+    gap         : rem(16px);
+
+    @include mediaquery (laptop) {
+        min-height     : 360px * 2;
+        flex-direction : column;
+    }
+
+    &__card,
+    &__advert {
+        @include components (50%, 100%, rem(8px));
+
+        @include mediaquery (laptop) {
+            width : 100%;
+        }
+    }
+
+    &__card {
+        background      : none;
+        box-shadow      : none;
+        position        : relative;
+        display         : flex;
+        flex-direction  : column;
+        justify-content : space-between;
+    }
+
+    &--card {
+        @include components (50%, 100%, rem(8px));
+        display : block;
+        padding : rem(16px)
+    }
+
+    &__season {
+        background: var(--season)
+    }
+
+    &__header,
+    &__footer {
+        @include components (100%, auto, rem(8px));
+        padding  : rem(16px);
+        position : relative;
+    }
+
+    &__footer {
+        width           : 100%;
+        display         : flex;
+        justify-content : space-between;
+        align-items     : center;
+    }
+
+    &__cover {
+        position : absolute;
+        z-index  : 10;
+        top      : 0;
+        right    : 0;
+        width    : rem(220px);
+    }
+
+    &__heading {
+        width          : 100%;
+        display        : flex;
+        flex-direction : column;
+        gap            : rem(8px);
+        position       : relative;
+        z-index        : 20;
+        margin-bottom  : rem(16px);
+    }
+
+    &__title-season {
+        @include font ($tonal-second, var(--heading-6), 600);
+        text-transform : uppercase;
+        margin         : rem(12px) 0 rem(4px) 0;
+    }
+
+    &__caption-season {
+        @include font ($tonal-second, rem(34px), 600);
+        line-height   : rem(34px);
+        margin-bottom : rem(4px);
+    }
+    
+    &__copy-season {
+        @include font (var(--components), var(--heading-4), normal);
+        margin-bottom: rem(16px);
+    }
+
+    &__content {
+        @include font (var(--content), var(--heading-4), 600);
+
+        @include mediaquery (mobile) {
+            font-size: var(--heading-5);
+        }
+    }
+    
+    &--content {
+        font-size : var(--heading-5);
+    }
+
+    &__logotype {
+        width : rem(124px);
+    }
+
+    &__route {
+        position   : absolute;
+        z-index    : 10;
+        width      : 100%;
+        height     : 100%;
+        background : transparent;
+
+        &:hover {
+            background : transparent;
+        }
+    }
+}

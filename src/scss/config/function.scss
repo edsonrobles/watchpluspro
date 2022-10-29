@@ -1,0 +1,44 @@
+@function rem ($px) {
+    $base : 16px;
+    @return calc($px / $base) * 1rem;
+}
+
+@function image ($image) {
+    $path : '../../resource/image/layout';
+    @return $path + $image;
+}
+
+
+$breakpoints : (
+    mobile  : rem(480px),
+    tablet  : rem(800px),
+    laptop  : rem(992px),
+    desktop : rem(1280px),
+);
+
+
+@mixin mediaquery ($breakpoint) {
+    @if map-has-key($breakpoints, $breakpoint) {
+        @media screen and (max-width : map-get($breakpoints, $breakpoint)) {
+            @content;
+        }
+    } @else {
+        @media screen and (max-width : $breakpoint) {
+            @content;
+        }
+    }
+}
+
+@mixin minmax-mediaquery ($min-breakpoint, $max-breakpoint) {
+    @media only screen and
+        (min-width : map-get($breakpoints, $min-breakpoint)) and
+        (max-width : map-get($breakpoints, $max-breakpoint)) {
+            @content;
+    }
+}
+
+@mixin landscape-mediaquery ($breakpoint) {
+    @media (max-width : map-get($breakpoints, $breakpoint)) and (orientation: landscape) {
+        @content;
+    }
+}

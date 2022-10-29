@@ -1,0 +1,106 @@
+@use '../config/function.scss' as *;
+@use '../config/theme.scss'    as *;
+@use '../config/mixins.scss'   as *;
+
+
+.casavision {
+    @include components (100%, auto, rem(8px));
+    background : #9600BB;
+    padding    : rem(24px) rem(32px);
+    display    : flex;
+    gap        : rem(16px);
+    position   : relative;
+    
+    @include mediaquery (laptop) {
+        flex-direction : column;
+        overflow       : visible;
+        padding        : rem(16px);
+    }
+
+    &__cover {
+        width    : 100%;
+        height   : 100%;
+        position : absolute;
+        top      : 0;
+        left     : 0;
+        z-index  : 10;
+    }
+
+    &__header,
+    &__footer {
+        width    : 50%;
+        height   : 100%;
+        position : relative;
+        z-index  : 20;
+
+        @include mediaquery (laptop) {
+            width  : 100%;
+            height : auto;
+        }
+    }
+
+    &__header {
+        display         : flex;
+        flex-direction  : column;
+        justify-content : space-between;
+    }
+
+    &__logotype {
+        width : rem(220px);
+
+        @include mediaquery (laptop) {
+            width         : rem(160px);
+            margin-bottom : rem(32px);
+        }
+    }
+
+    &__title {
+        @include font (var(--components), var(--heading-6), 600);
+        text-transform : uppercase;
+
+        @include mediaquery (rem(1024px)) {
+            margin-bottom : rem(8px);
+        }
+
+        @include mediaquery (laptop) {
+            margin-bottom : 0;
+        }
+    }
+    
+    &__caption {
+        @include font (var(--components), rem(40px), 600);
+        line-height : rem(38px);
+
+        @include mediaquery (rem(1024px)) {
+            font-size     : rem(32px);
+            line-height   : rem(32px);
+            margin-bottom : rem(8px);
+        }
+
+        
+    }
+    
+    &--caption {
+        font-size   : var(--heading-4);
+        font-weight : normal;
+
+        @include mediaquery (rem(1024px)) {
+            font-size   : var(--heading-5);
+            line-height : rem(20px);
+        }
+    }
+
+    &__link {
+        @include font (var(--heading), var(--heading-6), 600);
+        display        : inline-block;
+        text-transform : uppercase;
+        background     : var(--color-alt);
+        padding        : rem(8px) rem(12px);
+        border-radius  : rem(4px);
+
+        &:hover {
+            color      : var(--heading);
+            background : var(--color-alt);
+        }
+    }
+}

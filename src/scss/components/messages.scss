@@ -1,0 +1,51 @@
+@use '../config/function.scss' as *;
+@use '../config/theme.scss'    as *;
+@use '../config/mixins.scss'   as *;
+
+
+.messages {
+
+    &__icon {
+        min-width : rem(20px);
+    }
+
+    &__button {
+        position : relative;
+
+        &::before {
+            content       : "";
+            position      : absolute;
+            z-index       : 10;
+            top           : rem(-4px);
+            right         : rem(-2px);
+            background    : var(--messages);
+            width         : rem(12px);
+            height        : rem(12px);
+            border-radius : 50%;
+            border        : 2px solid var(--components);
+
+            @include mediaquery (tablet) {
+                border-color : var(--background);
+            }
+        }
+    }
+
+    &__nav {
+        @include components (rem(280px), auto, rem(8px));
+    }
+
+    &__content {
+        width   : 100%;
+        padding : rem(4px) rem(8px);
+    }
+
+    &--content {
+        width    : 100%;
+        height   : rem(280px);
+        overflow : auto;
+    }
+
+    &__title {
+        @include font (var(--content), var(--heading-5), 600);
+    }
+}

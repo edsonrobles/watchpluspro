@@ -1,0 +1,132 @@
+@use '../config/function.scss' as *;
+@use '../config/theme.scss'    as *;
+@use '../config/mixins.scss'   as *;
+
+
+.navbar {
+    @include components (100%, auto, 0);
+    display         : flex;
+    position        : fixed;
+    z-index         : 99999;
+    top             : 0;
+    bottom          : auto;
+    padding         : rem(8px) rem(48px);
+    border-bottom   : 1px solid var(--section);
+    display         : flex;
+    justify-content : center;
+    
+    @include mediaquery (tablet) {
+        top           : auto;
+        bottom        : 0;
+        box-shadow    : none;
+        padding       : rem(16px) rem(48px);
+        border-bottom : none;
+        border-top    : 1px solid var(--section);
+    }
+
+    @include mediaquery (mobile) {
+        display         : flex;
+        justify-content : center;
+        padding         : rem(12px) 0;
+    }
+
+    &__mobile {
+        display: none;
+
+        @include mediaquery (tablet) {
+            display    : block;
+            position   : relative;
+            top        : 0;
+            background : none;
+            box-shadow : none;
+            border     : none;
+            padding    : 0;
+        }
+    }
+    
+    &__wrapper {
+        max-width       : rem(1366px);
+        width           : 100%;
+        display         : flex;
+        justify-content : space-between;
+        align-items     : center;
+        
+        @include mediaquery (mobile) {
+            width           : 85%;
+            display         : flex;
+            justify-content : center;
+        }
+    }
+    
+    &--wrapper {
+        width           : 100%;
+        justify-content : space-between;
+    }
+
+    &__imagotype,
+    &__account {
+        display : block;
+
+        @include mediaquery (tablet) {
+            display : none;
+        }
+    }
+
+    &__imagotype {
+        width : rem(40px);
+    }
+
+    &__logotype {
+        display   : block;
+        min-width : rem(148px);
+    }
+
+    &--account {
+        display : block;
+    }
+
+    &__menu {
+        width : auto;
+
+        @include mediaquery (tablet) {
+            width : 100%;
+        }
+    }
+
+    &__routes {
+        display     : flex;
+        align-items : center;
+        gap         : rem(24px);
+
+        @include mediaquery (tablet) {
+            width           : 100%;
+            justify-content : space-between;
+            align-items     : center;
+        }
+    }
+    
+    &__item {
+        @include font (var(--content), var(--heading-5), 600);
+        position : relative;
+        display  : block;
+
+        @include mediaquery (tablet) {
+            display : none;
+        }
+    }
+    
+    &__icons {
+        width   : rem(24px);
+        display : none;
+        
+        @include mediaquery (tablet) {
+            display : block;
+        }
+    }
+
+    &__dropdown {
+        display     : flex;
+        align-items : center;
+        gap         : rem(16px);
+    }
+}

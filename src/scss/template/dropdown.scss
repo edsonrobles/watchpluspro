@@ -1,0 +1,60 @@
+@use '../config/function.scss' as *;
+@use '../config/theme.scss' as *;
+@use '../config/mixins.scss' as *;
+@use '../config/variables.scss' as *;
+
+.dropdown {
+
+    &__avatar {
+        width         : rem(44px);
+        height        : rem(44px);
+        object-fit    : cover;
+        border-radius : 50%;
+        overflow      : hidden;
+    }
+
+    &__notification {
+        position: relative;
+
+        &::before {
+            content       : "";
+            position      : absolute;
+            z-index       : 10;
+            top           : rem(-4px);
+            right         : rem(-2px);
+            width         : rem(12px);
+            height        : rem(12px);
+            border-radius : 50%;
+            background    : var(--notification);
+            border        : 2px solid var(--components);
+        }
+    }
+
+    &__icon {
+        width    : rem(20px);
+        position : relative;
+
+    }
+
+    &__menu {
+        @include components (rem(320px), auto);
+    }
+
+    &__content {
+        padding: rem(4px) rem(8px);
+    }
+
+    &__account {
+        display     : flex;
+        align-items : center;
+        gap         : rem(8px);
+    }
+
+    &__heading {
+        @include font (var(--content), var(--heading-5), 600)
+    }
+    
+    &__caption {
+        @include font (var(--caption), var(--heading-6), 600)
+    }
+}

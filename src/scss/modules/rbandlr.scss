@@ -1,0 +1,79 @@
+@use '../config/function.scss' as *;
+@use '../config/theme.scss'    as *;
+@use '../config/mixins.scss'   as *;
+
+
+.rbandlr {
+    @include components (100%, rem(260px), rem(8px));
+    overflow        : hidden;
+    position        : relative;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+
+    &__advert {
+        width      : 100%;
+        height     : 100%;
+        object-fit : cover;
+    }
+
+    &__wrapper {
+        width           : min(rem(640px), 100%);
+        height          : 100%;
+        padding         : clamp(rem(8px), 5vw, rem(24px));
+        position        : absolute;
+        z-index         : 10;
+        top             : 0;
+        left            : 0;
+        display         : flex;
+        flex-direction  : column;
+        justify-content : space-between;
+    }
+
+    &__header,
+    &__footer {
+        display        : flex;
+        flex-direction : column;
+        gap            : rem(4px);
+    }
+
+    &__logotype {
+        order : 1;
+        width : min(rem(96px), rem(120px));
+    }
+        
+    &__copy {
+        @include font (var(--content), var(--heading-3), normal);
+        order : 3;
+    }
+
+    &--copy {
+        order         : 0;
+        color         : var(--components);
+        font-size     : var(--heading-5);
+        margin-bottom : rem(8px);
+    }
+
+    &__caption {
+        @include font (var(--caption), var(--heading-7), normal);
+        order          : 2;
+        text-transform : uppercase;
+        font-family    : $font-family;
+        position       : relative;
+    }
+
+    &--caption {
+        text-decoration: underline;
+    }
+
+    &__button {
+        background     : #C69C6D;
+        padding        : rem(8px) rem(16px);
+        border-radius  : rem(4px);
+        text-transform : capitalize;
+
+        &:hover {
+            background : #C69C6D;
+        }
+    }
+}

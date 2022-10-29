@@ -1,0 +1,143 @@
+@use '../config/function.scss' as *;
+@use '../config/theme.scss'    as *;
+@use '../config/mixins.scss'   as *;
+
+
+.dropdown-toggle::after,
+.dropdown-toggle::before,
+.dropstart .dropdown-toggle::before,
+.dropup .dropdown-toggle::after {
+    display : none;
+}
+
+.active {
+    color : var(--heading);
+}
+
+// billboard and trending
+.splide-01,
+.splide-02,
+.splide-03,
+.splide-04 {
+    height : rem(300px);
+
+    &__track,
+    &__list,
+    &__splide {
+        height : 98%;
+    }
+}
+
+// promotions siglo nuevo
+.splide-05 {
+    height : rem(175px);
+
+    &__track,
+    &__list,
+    &__splide {
+        height : 98%;
+    }
+}
+
+// box officer
+.splide-06 {
+    height : rem(265px);
+
+    @include mediaquery (mobile) {
+        height: rem(150px);
+    }
+
+    &__track,
+    &__list,
+    &__splide {
+        height : 98%;
+    }
+}
+
+// news
+.splide-07 {
+    height : rem(220px);
+
+    &__track,
+    &__list,
+    &__splide {
+        height : 98%;
+    }
+}
+
+// streaming
+.splide-08 {
+    height   : rem(185px);
+    position : relative;
+    z-index  : 20;
+
+    &__track,
+    &__list,
+    &__splide {
+        height : 98%;
+    }
+}
+
+// casavision
+.splide-09 {
+    height : rem(238px);
+
+    &__track,
+    &__list,
+    &__splide {
+        height : 98%;
+    }
+}
+
+// actors
+.splide-10 {
+    height : rem(265px);
+
+    &__track,
+    &__list,
+    &__splide {
+        height : 98%;
+    }
+}
+
+// known
+.splide-11,
+.splide-12,
+.splide-13,
+.splide-14,
+.splide-15,
+.splide-16,
+.splide-17,
+.splide-18,
+.splide-19 {
+    height : rem(150px);
+
+    &__track,
+    &__list,
+    &__splide {
+        height : 98%;
+    }
+}
+
+// scenes recommendations
+.splide-20,
+.splide-21,
+.splide-22,
+.splide-23,
+.splide-24,
+.splide-25,
+.splide-26,
+.splide-27,
+.splide-28 {
+    height : rem(185px);
+    
+    @include mediaquery (tablet) {
+        height : rem(170px);
+    }
+
+    &__track,
+    &__list,
+    &__splide {
+        height : 98%;
+    }
+}

@@ -1,0 +1,63 @@
+@use './function.scss' as *;
+@use './theme.scss' as *;
+
+$radius : rem(8px) !default;
+
+@mixin components ($width, $height, $radius) {
+    width         : $width;
+    height        : $height;
+    background    : var(--components);
+    border-radius : $radius;
+    box-shadow    : 0px 2px 2px rgba($tonal-first, .25);
+}
+
+@mixin font ($color, $size, $weight) {
+    color       : $color;
+    font-size   : $size;
+    font-weight : $weight;
+}
+
+@mixin dropdown {
+    width    : 100%;
+    height   : rem(280px);
+    padding  : 0 rem(8px);
+    overflow : auto;
+}
+
+// @mixin flex-section {
+//     width          : 100%;
+//     display        : flex;
+//     flex-direction : column;
+// }
+
+// @mixin flex-module {
+//     width          : 100%;
+//     display        : flex;
+//     flex-direction : column;
+// }
+
+// // @mixin photo ($size) {
+// //     width  : $size;
+// //     height : $size;
+// // }
+
+// // @mixin  section {
+// //     padding: rem(48px) rem(64px);
+// // }
+
+// @mixin components ($width, $height) {
+//     width         : $width;
+//     height        : $height;
+//     background    : var(--components);
+//     border-radius : rem(8px);
+//     box-shadow    : 0px 2px 2px rgba(0, 0, 0, 0.25);
+// }
+
+// // @mixin glass {
+// //     background      : var(--component);
+// //     box-shadow      : rem(20px) rem(20px) rem(50px) var(--content);
+// //     border-top      : 1px solid var(--component);
+// //     border-left     : 1px solid var(--component);
+// //     backdrop-filter : blur(rem(5px));
+// //     transition      : .5s all;
+// // }

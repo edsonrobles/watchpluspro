@@ -1,0 +1,59 @@
+@use '../config/function.scss' as *;
+@use '../config/theme.scss'    as *;
+@use '../config/mixins.scss'   as *;
+
+
+.watch {
+    width           : 100%;
+    height          : 100vh;
+    background      : var(--background);
+    display         : flex;
+    justify-content : center;
+    overflow-y      : scroll;
+    scrollbar-width : thin;
+    scrollbar-color : $caption $section;
+    
+    &::-webkit-scrollbar {
+        width : rem(8px);
+
+        @include mediaquery (mobile) {
+            width : rem(4px);
+        }
+        
+        &-track { background : $section; }
+        &-thumb { background : $caption; }
+    }
+    
+    &__content {
+        max-width      : rem(1366px);
+        width          : 95%;
+        display        : flex;
+        flex-direction : column;
+        row-gap        : rem(32px);
+        padding-top    : rem(96px);
+        
+        @include mediaquery (tablet) {
+            padding-top : rem(24px);
+        }
+    }
+
+    &__logotype {
+        order   : 1;
+        display : none;
+    }
+
+    &__section,
+    &__advert,
+    &__section-last {
+        width : 100%;
+    }
+
+    &__advert {
+        display : flex;
+        gap     : rem(16px);
+    }
+
+    &__section-last {
+        padding-bottom: rem(48px);
+    }
+}

@@ -1,0 +1,63 @@
+@use '../config/function.scss' as *;
+@use '../config/theme.scss'    as *;
+@use '../config/mixins.scss'   as *;
+
+
+.headline {
+    width           : 100%;
+    display         : flex;
+    justify-content : space-between;
+    margin-bottom   : rem(16px);
+    
+    &__wrapper {
+        width           : 100%;
+        display         : flex;
+        justify-content : space-between;
+        align-items     : center;
+        gap             : rem(16px);
+
+        @include mediaquery (mobile) {
+            gap : rem(8px);
+        }
+    }
+    
+    &__menu {
+        display : flex;
+        gap     : rem(16px);
+
+        @include mediaquery (mobile) {
+            gap : rem(8px);
+        }
+    }
+
+    &__title {
+        @include font (var(--content), var(--heading-5), 600);
+
+        @include mediaquery (mobile) {
+            font-size: var(--heading-5);
+        }
+    }
+    
+    &--title {
+        @include font (var(--caption), var(--heading-6), normal);
+
+        @include mediaquery (mobile) {
+            font-size: var(--heading-7);
+        }
+    }
+
+    &__tab {
+        @include font (var(--caption), var(--heading-5), 600);
+
+        @include mediaquery (mobile) {
+            font-size: var(--heading-6);
+        }
+    }
+
+    
+    &__title::first-letter,
+    &--title::first-letter,
+    &__tab::first-letter {
+        text-transform : uppercase;
+    }
+}
