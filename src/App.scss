@@ -1,0 +1,28 @@
+@forward './scss/config/base.scss';
+
+@forward './scss/template/layout.scss';
+
+@forward './scss/include/navbar.scss';
+@forward './scss/include/siglonuevo.scss';
+@forward './scss/include/news.scss';
+@forward './scss/include/streaming.scss';
+@forward './scss/include/footer.scss';
+@forward './scss/include/proposal.scss';
+
+@forward './scss/components/account.scss';
+@forward './scss/components/messages.scss';
+@forward './scss/components/headline.scss';
+@forward './scss/components/poster.scss';
+@forward './scss/components/datasheet.scss';
+@forward './scss/components/ticketofficer.scss';
+@forward './scss/components/bio.scss';
+@forward './scss/components/bet.scss';
+@forward './scss/components/suggestions.scss';
+
+@forward './scss/modules/rbandlr.scss';
+@forward './scss/modules/cinemas.scss';
+@forward './scss/modules/casavision.scss';
+
+@forward './scss/config/hacks.scss';
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
